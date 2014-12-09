@@ -34,7 +34,8 @@ namespace TowerTrouble
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
+            EffectManager.Initialize(graphics, Content);
+            EffectManager.LoadContent();
             base.Initialize();
         }
 
