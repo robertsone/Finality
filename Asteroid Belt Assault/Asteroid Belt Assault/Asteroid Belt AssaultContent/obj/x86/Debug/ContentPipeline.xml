@@ -1,0 +1,721 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Textures\SpriteSheet.png</Source>
+      <Name>Textures\SpriteSheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\SpriteSheet.xnb</Output>
+      <Time>2014-12-08T07:19:26.1796-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\TitleScreen.png</Source>
+      <Name>Textures\TitleScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\TitleScreen.xnb</Output>
+      <Time>2014-12-08T07:19:26.1886-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Planets.png</Source>
+      <Name>Textures\Planets</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Planets.xnb</Output>
+      <Time>2014-12-08T07:19:26.1696-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Win.png</Source>
+      <Name>Textures\Win</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Win.xnb</Output>
+      <Time>2014-12-08T07:19:26.1906-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\check.png</Source>
+      <Name>Textures\check</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\check.xnb</Output>
+      <Time>2014-12-08T07:19:26.1936-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\vial.png</Source>
+      <Name>Textures\vial</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\vial.xnb</Output>
+      <Time>2014-12-08T07:19:26.1956-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\butt.png</Source>
+      <Name>Textures\butt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\butt.xnb</Output>
+      <Time>2014-12-08T07:19:26.1926-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Bar.png</Source>
+      <Name>Textures\Bar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Bar.xnb</Output>
+      <Time>2014-12-08T07:19:26.1516-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\hp.png</Source>
+      <Name>Textures\hp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\hp.xnb</Output>
+      <Time>2014-12-08T07:19:26.1946-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Pause.png</Source>
+      <Name>Textures\Pause</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Pause.xnb</Output>
+      <Time>2014-12-08T07:19:26.1686-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Beam.png</Source>
+      <Name>Textures\Beam</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Beam.xnb</Output>
+      <Time>2014-12-08T07:19:26.1516-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\BeamBlurred.png</Source>
+      <Name>Textures\BeamBlurred</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\BeamBlurred.xnb</Output>
+      <Time>2014-12-08T07:19:26.1526-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Cloud001.png</Source>
+      <Name>Textures\Cloud001</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Cloud001.xnb</Output>
+      <Time>2014-12-08T07:19:26.1526-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Cloud002.png</Source>
+      <Name>Textures\Cloud002</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Cloud002.xnb</Output>
+      <Time>2014-12-08T07:19:26.1536-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Cloud003.png</Source>
+      <Name>Textures\Cloud003</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Cloud003.xnb</Output>
+      <Time>2014-12-08T07:19:26.1546-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Cloud004.png</Source>
+      <Name>Textures\Cloud004</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Cloud004.xnb</Output>
+      <Time>2014-12-08T07:19:26.1546-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Crosshair2.png</Source>
+      <Name>Textures\Crosshair2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Crosshair2.xnb</Output>
+      <Time>2014-12-08T07:19:26.1546-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Flame.png</Source>
+      <Name>Textures\Flame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Flame.xnb</Output>
+      <Time>2014-12-08T07:19:26.1606-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\FlowerBurst.png</Source>
+      <Name>Textures\FlowerBurst</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\FlowerBurst.xnb</Output>
+      <Time>2014-12-08T07:19:26.1606-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Laser.png</Source>
+      <Name>Textures\Laser</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Laser.xnb</Output>
+      <Time>2014-12-08T07:19:26.1616-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\LensFlare.png</Source>
+      <Name>Textures\LensFlare</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\LensFlare.xnb</Output>
+      <Time>2014-12-08T07:19:26.1616-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\light.png</Source>
+      <Name>Textures\light</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\light.xnb</Output>
+      <Time>2014-12-08T07:19:26.1956-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\MultiDot.png</Source>
+      <Name>Textures\MultiDot</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\MultiDot.xnb</Output>
+      <Time>2014-12-08T07:19:26.1636-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Particle001.png</Source>
+      <Name>Textures\Particle001</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Particle001.xnb</Output>
+      <Time>2014-12-08T07:19:26.1636-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Particle002.png</Source>
+      <Name>Textures\Particle002</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Particle002.xnb</Output>
+      <Time>2014-12-08T07:19:26.1646-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Particle003.png</Source>
+      <Name>Textures\Particle003</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Particle003.xnb</Output>
+      <Time>2014-12-08T07:19:26.1656-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Particle004.png</Source>
+      <Name>Textures\Particle004</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Particle004.xnb</Output>
+      <Time>2014-12-08T07:19:26.1666-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Particle005.png</Source>
+      <Name>Textures\Particle005</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Particle005.xnb</Output>
+      <Time>2014-12-08T07:19:26.1666-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Particle006.png</Source>
+      <Name>Textures\Particle006</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Particle006.xnb</Output>
+      <Time>2014-12-08T07:19:26.1676-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Particle007.png</Source>
+      <Name>Textures\Particle007</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Particle007.xnb</Output>
+      <Time>2014-12-08T07:19:26.1676-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Ring001.png</Source>
+      <Name>Textures\Ring001</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Ring001.xnb</Output>
+      <Time>2014-12-08T07:19:26.1706-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Ring002.png</Source>
+      <Name>Textures\Ring002</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Ring002.xnb</Output>
+      <Time>2014-12-08T07:19:26.1716-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\SoftClumpy.png</Source>
+      <Name>Textures\SoftClumpy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\SoftClumpy.xnb</Output>
+      <Time>2014-12-08T07:19:26.1716-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\SoftSmokey.png</Source>
+      <Name>Textures\SoftSmokey</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\SoftSmokey.xnb</Output>
+      <Time>2014-12-08T07:19:26.1726-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Spikey001.png</Source>
+      <Name>Textures\Spikey001</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Spikey001.xnb</Output>
+      <Time>2014-12-08T07:19:26.1736-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Spikey002.png</Source>
+      <Name>Textures\Spikey002</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Spikey002.xnb</Output>
+      <Time>2014-12-08T07:19:26.1776-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Splash.png</Source>
+      <Name>Textures\Splash</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Splash.xnb</Output>
+      <Time>2014-12-08T07:19:26.1776-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Spray001.png</Source>
+      <Name>Textures\Spray001</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Spray001.xnb</Output>
+      <Time>2014-12-08T07:19:26.1786-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Star.png</Source>
+      <Name>Textures\Star</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Star.xnb</Output>
+      <Time>2014-12-08T07:19:26.1806-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Water001.png</Source>
+      <Name>Textures\Water001</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Water001.xnb</Output>
+      <Time>2014-12-08T07:19:26.1896-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Water002.png</Source>
+      <Name>Textures\Water002</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Water002.xnb</Output>
+      <Time>2014-12-08T07:19:26.1896-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Weeds.png</Source>
+      <Name>Textures\Weeds</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Weeds.xnb</Output>
+      <Time>2014-12-08T07:19:26.1906-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\background.jpg</Source>
+      <Name>Textures\background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\background.xnb</Output>
+      <Time>2014-12-08T07:19:26.1926-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Custom.png.png</Source>
+      <Name>Textures\Custom.png</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Custom.png.xnb</Output>
+      <Time>2014-12-08T07:19:26.1596-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Explosion1.wav</Source>
+      <Name>Sounds\Explosion1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion1.xnb</Output>
+      <Time>2014-12-08T07:19:26.1456-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Explosion2.wav</Source>
+      <Name>Sounds\Explosion2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion2.xnb</Output>
+      <Time>2014-12-08T07:19:26.1466-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Explosion3.wav</Source>
+      <Name>Sounds\Explosion3</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion3.xnb</Output>
+      <Time>2014-12-08T07:19:26.1476-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Explosion4.wav</Source>
+      <Name>Sounds\Explosion4</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion4.xnb</Output>
+      <Time>2014-12-08T07:19:26.1496-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Shot1.wav</Source>
+      <Name>Sounds\Shot1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Shot1.xnb</Output>
+      <Time>2014-12-08T07:19:26.1506-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Shot2.wav</Source>
+      <Name>Sounds\Shot2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Shot2.xnb</Output>
+      <Time>2014-12-08T07:19:26.1506-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\Pericles14.spritefont</Source>
+      <Name>Fonts\Pericles14</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Fonts\Pericles14.xnb</Output>
+      <Time>2014-12-08T07:19:26.1436-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\BasicExplosion.xml</Source>
+      <Name>EffectLibrary\BasicExplosion</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\BasicExplosion.xnb</Output>
+      <Time>2014-12-08T07:19:26.1306-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\BasicExplosionWithHalo.xml</Source>
+      <Name>EffectLibrary\BasicExplosionWithHalo</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithHalo.xnb</Output>
+      <Time>2014-12-08T07:19:26.1316-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\BasicExplosionWithTrails2.xml</Source>
+      <Name>EffectLibrary\BasicExplosionWithTrails2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithTrails2.xnb</Output>
+      <Time>2014-12-08T07:19:26.1326-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\BasicFireball.xml</Source>
+      <Name>EffectLibrary\BasicFireball</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\BasicFireball.xnb</Output>
+      <Time>2014-12-08T07:19:26.1336-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\BasicSmokePlume.xml</Source>
+      <Name>EffectLibrary\BasicSmokePlume</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\BasicSmokePlume.xnb</Output>
+      <Time>2014-12-08T07:19:26.1336-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\BeamMeUp.xml</Source>
+      <Name>EffectLibrary\BeamMeUp</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\BeamMeUp.xnb</Output>
+      <Time>2014-12-08T07:19:26.1346-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\CampFire.xml</Source>
+      <Name>EffectLibrary\CampFire</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\CampFire.xnb</Output>
+      <Time>2014-12-08T07:19:26.1346-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\Enemy Cannon Fire.xml</Source>
+      <Name>EffectLibrary\Enemy Cannon Fire</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\Enemy Cannon Fire.xnb</Output>
+      <Time>2014-12-08T07:19:26.1356-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\FlowerBloom.xml</Source>
+      <Name>EffectLibrary\FlowerBloom</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\FlowerBloom.xnb</Output>
+      <Time>2014-12-08T07:19:26.1356-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\MagicTrail.xml</Source>
+      <Name>EffectLibrary\MagicTrail</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\MagicTrail.xnb</Output>
+      <Time>2014-12-08T07:19:26.1366-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\MeteroidCollision.xml</Source>
+      <Name>EffectLibrary\MeteroidCollision</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\MeteroidCollision.xnb</Output>
+      <Time>2014-12-08T07:19:26.1366-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\MeteroidExplode.xml</Source>
+      <Name>EffectLibrary\MeteroidExplode</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\MeteroidExplode.xnb</Output>
+      <Time>2014-12-08T07:19:26.1376-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\Paparazzi.xml</Source>
+      <Name>EffectLibrary\Paparazzi</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\Paparazzi.xnb</Output>
+      <Time>2014-12-08T07:19:26.1376-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\PulseTracker.xml</Source>
+      <Name>EffectLibrary\PulseTracker</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\PulseTracker.xnb</Output>
+      <Time>2014-12-08T07:19:26.1386-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\ShieldBounce.xml</Source>
+      <Name>EffectLibrary\ShieldBounce</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\ShieldBounce.xnb</Output>
+      <Time>2014-12-08T07:19:26.1386-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\ShieldsUp.xml</Source>
+      <Name>EffectLibrary\ShieldsUp</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\ShieldsUp.xnb</Output>
+      <Time>2014-12-08T07:19:26.1386-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\Ship Cannon Fire.xml</Source>
+      <Name>EffectLibrary\Ship Cannon Fire</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\Ship Cannon Fire.xnb</Output>
+      <Time>2014-12-08T07:19:26.1396-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\ShipSmokeTrail.xml</Source>
+      <Name>EffectLibrary\ShipSmokeTrail</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\ShipSmokeTrail.xnb</Output>
+      <Time>2014-12-08T07:19:26.1396-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\SimpleRain.xml</Source>
+      <Name>EffectLibrary\SimpleRain</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\SimpleRain.xnb</Output>
+      <Time>2014-12-08T07:19:26.1406-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\StarFireImpact.xml</Source>
+      <Name>EffectLibrary\StarFireImpact</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\StarFireImpact.xnb</Output>
+      <Time>2014-12-08T07:19:26.1406-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\StarTrail.xml</Source>
+      <Name>EffectLibrary\StarTrail</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\StarTrail.xnb</Output>
+      <Time>2014-12-08T07:19:26.1406-05:00</Time>
+    </Item>
+    <Item>
+      <Source>EffectLibrary\WaterJet.xml</Source>
+      <Name>EffectLibrary\WaterJet</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\WaterJet.xnb</Output>
+      <Time>2014-12-08T07:19:26.1416-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\GSP_Xmas_intro_2014_Full_.wav</Source>
+      <Name>Sounds\GSP_Xmas_intro_2014_Full_</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\GSP_Xmas_intro_2014_Full_.xnb</Output>
+      <Extra>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\GSP_Xmas_intro_2014_Full_.wma</Extra>
+      <Time>2014-12-08T07:38:49.9246-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt AssaultContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt AssaultContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\ProjectMercury.dll</Key>
+        <Value>2014-12-08T07:19:26.2016-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Users\eahscs\Documents\GitHub\chapter-5-project\Asteroid Belt Assault\Asteroid Belt Assault\ProjectMercury.ContentPipeline.dll</Key>
+        <Value>2014-12-08T07:19:26.2006-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-04-18T11:24:14.1308-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
