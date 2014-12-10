@@ -15,7 +15,7 @@ using ProjectMercury.Emitters;
 using ProjectMercury.Modifiers;
 using ProjectMercury.Renderers;
 
-namespace Asteroid_Belt_Assault
+namespace TowerTrouble
 {
     public class ShaderParameters
     {
