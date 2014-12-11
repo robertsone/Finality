@@ -35,7 +35,7 @@ namespace TowerTrouble
         {
 
             Tiles[,] New = new Tiles[17, 17];
-            New[8, 8] = new Tiles(tiles[9, 9].sprite, tiles[9,9].tower, tiles[9,9].collideablie);
+            New[9, 9] = new Tiles(tiles[9, 9].sprite, tiles[9,9].tower, tiles[9,9].collideablie);
 
             for (int i = 0; i < tileWidth; i++)
             {
@@ -61,7 +61,7 @@ namespace TowerTrouble
                             {
                                 if (New[i + 1, j] == null)
                                 {
-                                    New[i + 1, j] = new Tiles(tiles[i, j].sprite, tiles[i, j].tower, tiles[i, j].collideablie);
+                                    New[i + 1, j] = new Tiles(tiles[i+1, j].sprite, tiles[i+1, j].tower, tiles[i+1, j].collideablie);
                                     New[i + 1, j].changeto(i, j);
                                 }
                             }
@@ -69,7 +69,7 @@ namespace TowerTrouble
                             {
                                 if (New[i - 1, j] == null)
                                 {
-                                    New[i - 1, j] = new Tiles(tiles[i, j].sprite, tiles[i, j].tower, tiles[i, j].collideablie);
+                                    New[i - 1, j] = new Tiles(tiles[i-1, j].sprite, tiles[i-1, j].tower, tiles[i-1, j].collideablie);
                                     New[i - 1, j].changeto(i, j);
                                 }
                             }
@@ -77,7 +77,7 @@ namespace TowerTrouble
                             {
                                 if (New[i, j + 1] == null)
                                 {
-                                    New[i, j + 1] = new Tiles(tiles[i, j].sprite, tiles[i, j].tower, tiles[i, j].collideablie);
+                                    New[i, j + 1] = new Tiles(tiles[i, j+1].sprite, tiles[i, j+1].tower, tiles[i, j+1].collideablie);
                                     New[i, j + 1].changeto(i, j);
                                 }
                             }
@@ -85,7 +85,7 @@ namespace TowerTrouble
                             {
                                 if (New[i, j - 1] == null && j - 1 >= 0)
                                 {
-                                    New[i, j - 1] = new Tiles(tiles[i, j].sprite, tiles[i, j].tower, tiles[i, j].collideablie);
+                                    New[i, j - 1] = new Tiles(tiles[i, j-1].sprite, tiles[i, j-1].tower, tiles[i, j-1].collideablie);
                                     New[i, j - 1].changeto(i, j);
                                 }
                             }
