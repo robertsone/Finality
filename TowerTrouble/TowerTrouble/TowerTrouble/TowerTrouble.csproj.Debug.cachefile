@@ -20,6 +20,7 @@ Content\EffectLibrary\SimpleRain.xnb
 Content\EffectLibrary\StarFireImpact.xnb
 Content\EffectLibrary\StarTrail.xnb
 Content\EffectLibrary\WaterJet.xnb
+Content\Textures\grid.xnb
 Content\Textures\background.xnb
 Content\Textures\Bar.xnb
 Content\Textures\Beam.xnb
@@ -64,4 +65,3 @@ Content\Textures\Water001.xnb
 Content\Textures\Water002.xnb
 Content\Textures\Weeds.xnb
 Content\Textures\Win.xnb
-Content\Textures\grid.xnb

@@ -7,8 +7,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BasicExplosion.xnb</Output>
-      <Time>2014-12-10T07:24:03.7026-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BasicExplosion.xnb</Output>
+      <Time>2014-12-11T07:19:25.6136-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\BasicExplosionWithHalo.xml</Source>
@@ -16,8 +16,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithHalo.xnb</Output>
-      <Time>2014-12-10T07:24:03.7036-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithHalo.xnb</Output>
+      <Time>2014-12-11T07:19:25.6146-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\BasicExplosionWithTrails2.xml</Source>
@@ -25,8 +25,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithTrails2.xnb</Output>
-      <Time>2014-12-10T07:24:03.7056-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithTrails2.xnb</Output>
+      <Time>2014-12-11T07:19:25.6316-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\BasicFireball.xml</Source>
@@ -34,8 +34,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BasicFireball.xnb</Output>
-      <Time>2014-12-10T07:24:03.7066-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BasicFireball.xnb</Output>
+      <Time>2014-12-11T07:19:25.6316-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\BasicSmokePlume.xml</Source>
@@ -43,8 +43,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BasicSmokePlume.xnb</Output>
-      <Time>2014-12-10T07:24:03.7066-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BasicSmokePlume.xnb</Output>
+      <Time>2014-12-11T07:19:25.6326-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\BeamMeUp.xml</Source>
@@ -52,8 +52,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BeamMeUp.xnb</Output>
-      <Time>2014-12-10T07:24:03.7066-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BeamMeUp.xnb</Output>
+      <Time>2014-12-11T07:19:25.6326-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\CampFire.xml</Source>
@@ -61,8 +61,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\CampFire.xnb</Output>
-      <Time>2014-12-10T07:24:03.7076-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\CampFire.xnb</Output>
+      <Time>2014-12-11T07:19:25.6326-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\Enemy Cannon Fire.xml</Source>
@@ -70,8 +70,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\Enemy Cannon Fire.xnb</Output>
-      <Time>2014-12-10T07:24:03.7076-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\Enemy Cannon Fire.xnb</Output>
+      <Time>2014-12-11T07:19:25.6616-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\FlowerBloom.xml</Source>
@@ -79,8 +79,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\FlowerBloom.xnb</Output>
-      <Time>2014-12-10T07:24:03.7076-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\FlowerBloom.xnb</Output>
+      <Time>2014-12-11T07:19:25.6616-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\MagicTrail.xml</Source>
@@ -88,8 +88,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\MagicTrail.xnb</Output>
-      <Time>2014-12-10T07:24:03.7086-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\MagicTrail.xnb</Output>
+      <Time>2014-12-11T07:19:25.6626-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\MeteroidCollision.xml</Source>
@@ -97,8 +97,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\MeteroidCollision.xnb</Output>
-      <Time>2014-12-10T07:24:03.7086-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\MeteroidCollision.xnb</Output>
+      <Time>2014-12-11T07:19:25.6816-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\MeteroidExplode.xml</Source>
@@ -106,8 +106,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\MeteroidExplode.xnb</Output>
-      <Time>2014-12-10T07:24:03.7086-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\MeteroidExplode.xnb</Output>
+      <Time>2014-12-11T07:19:25.6826-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\Paparazzi.xml</Source>
@@ -115,8 +115,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\Paparazzi.xnb</Output>
-      <Time>2014-12-10T07:24:03.7096-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\Paparazzi.xnb</Output>
+      <Time>2014-12-11T07:19:25.6836-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\PulseTracker.xml</Source>
@@ -124,8 +124,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\PulseTracker.xnb</Output>
-      <Time>2014-12-10T07:24:03.7096-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\PulseTracker.xnb</Output>
+      <Time>2014-12-11T07:19:25.6846-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\ShieldBounce.xml</Source>
@@ -133,8 +133,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\ShieldBounce.xnb</Output>
-      <Time>2014-12-10T07:24:03.7096-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\ShieldBounce.xnb</Output>
+      <Time>2014-12-11T07:19:25.6876-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\ShieldsUp.xml</Source>
@@ -142,8 +142,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\ShieldsUp.xnb</Output>
-      <Time>2014-12-10T07:24:03.7106-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\ShieldsUp.xnb</Output>
+      <Time>2014-12-11T07:19:25.6886-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\Ship Cannon Fire.xml</Source>
@@ -151,8 +151,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\Ship Cannon Fire.xnb</Output>
-      <Time>2014-12-10T07:24:03.7106-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\Ship Cannon Fire.xnb</Output>
+      <Time>2014-12-11T07:19:25.6886-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\ShipSmokeTrail.xml</Source>
@@ -160,8 +160,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\ShipSmokeTrail.xnb</Output>
-      <Time>2014-12-10T07:24:03.7106-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\ShipSmokeTrail.xnb</Output>
+      <Time>2014-12-11T07:19:25.6896-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\SimpleRain.xml</Source>
@@ -169,8 +169,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\SimpleRain.xnb</Output>
-      <Time>2014-12-10T07:24:03.7116-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\SimpleRain.xnb</Output>
+      <Time>2014-12-11T07:19:25.6996-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\StarFireImpact.xml</Source>
@@ -178,8 +178,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\StarFireImpact.xnb</Output>
-      <Time>2014-12-10T07:24:03.7116-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\StarFireImpact.xnb</Output>
+      <Time>2014-12-11T07:19:25.6996-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\StarTrail.xml</Source>
@@ -187,8 +187,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\StarTrail.xnb</Output>
-      <Time>2014-12-10T07:24:03.7126-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\StarTrail.xnb</Output>
+      <Time>2014-12-11T07:19:25.7006-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\WaterJet.xml</Source>
@@ -196,404 +196,8 @@
       <Importer>XmlImporter</Importer>
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\WaterJet.xnb</Output>
-      <Time>2014-12-10T07:24:03.7126-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\background.jpg</Source>
-      <Name>Textures\background</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\background.xnb</Output>
-      <Time>2014-12-10T07:40:24.2496-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Bar.png</Source>
-      <Name>Textures\Bar</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Bar.xnb</Output>
-      <Time>2014-12-10T07:40:24.2626-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Beam.png</Source>
-      <Name>Textures\Beam</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Beam.xnb</Output>
-      <Time>2014-12-10T07:40:24.2636-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\BeamBlurred.png</Source>
-      <Name>Textures\BeamBlurred</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\BeamBlurred.xnb</Output>
-      <Time>2014-12-10T07:40:24.2636-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\butt.png</Source>
-      <Name>Textures\butt</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\butt.xnb</Output>
-      <Time>2014-12-10T07:40:24.2656-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\check.png</Source>
-      <Name>Textures\check</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\check.xnb</Output>
-      <Time>2014-12-10T07:40:24.2666-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Cloud001.png</Source>
-      <Name>Textures\Cloud001</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Cloud001.xnb</Output>
-      <Time>2014-12-10T07:40:24.2676-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Cloud002.png</Source>
-      <Name>Textures\Cloud002</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Cloud002.xnb</Output>
-      <Time>2014-12-10T07:40:24.2686-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Cloud003.png</Source>
-      <Name>Textures\Cloud003</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Cloud003.xnb</Output>
-      <Time>2014-12-10T07:40:24.2696-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Cloud004.png</Source>
-      <Name>Textures\Cloud004</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Cloud004.xnb</Output>
-      <Time>2014-12-10T07:40:24.2706-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Crosshair2.png</Source>
-      <Name>Textures\Crosshair2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Crosshair2.xnb</Output>
-      <Time>2014-12-10T07:40:24.2716-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Custom.png.png</Source>
-      <Name>Textures\Custom.png</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Custom.png.xnb</Output>
-      <Time>2014-12-10T07:40:24.2736-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Flame.png</Source>
-      <Name>Textures\Flame</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Flame.xnb</Output>
-      <Time>2014-12-10T07:40:24.2746-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\FlowerBurst.png</Source>
-      <Name>Textures\FlowerBurst</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\FlowerBurst.xnb</Output>
-      <Time>2014-12-10T07:40:24.2756-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\hp.png</Source>
-      <Name>Textures\hp</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\hp.xnb</Output>
-      <Time>2014-12-10T07:40:24.2766-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Laser.png</Source>
-      <Name>Textures\Laser</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Laser.xnb</Output>
-      <Time>2014-12-10T07:40:24.2776-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\LensFlare.png</Source>
-      <Name>Textures\LensFlare</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\LensFlare.xnb</Output>
-      <Time>2014-12-10T07:40:24.2786-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\light.png</Source>
-      <Name>Textures\light</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\light.xnb</Output>
-      <Time>2014-12-10T07:40:24.2806-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\MultiDot.png</Source>
-      <Name>Textures\MultiDot</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\MultiDot.xnb</Output>
-      <Time>2014-12-10T07:40:24.2806-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Particle001.png</Source>
-      <Name>Textures\Particle001</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle001.xnb</Output>
-      <Time>2014-12-10T07:40:24.2816-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Particle002.png</Source>
-      <Name>Textures\Particle002</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle002.xnb</Output>
-      <Time>2014-12-10T07:40:24.3646-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Particle003.png</Source>
-      <Name>Textures\Particle003</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle003.xnb</Output>
-      <Time>2014-12-10T07:40:24.3686-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Particle004.png</Source>
-      <Name>Textures\Particle004</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle004.xnb</Output>
-      <Time>2014-12-10T07:40:24.3726-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Particle005.png</Source>
-      <Name>Textures\Particle005</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle005.xnb</Output>
-      <Time>2014-12-10T07:40:24.3766-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Particle006.png</Source>
-      <Name>Textures\Particle006</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle006.xnb</Output>
-      <Time>2014-12-10T07:40:24.3806-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Particle007.png</Source>
-      <Name>Textures\Particle007</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle007.xnb</Output>
-      <Time>2014-12-10T07:40:24.3836-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Pause.png</Source>
-      <Name>Textures\Pause</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Pause.xnb</Output>
-      <Time>2014-12-10T07:40:24.3876-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Planets.png</Source>
-      <Name>Textures\Planets</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Planets.xnb</Output>
-      <Time>2014-12-10T07:40:24.3916-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Ring001.png</Source>
-      <Name>Textures\Ring001</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Ring001.xnb</Output>
-      <Time>2014-12-10T07:40:24.3946-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Ring002.png</Source>
-      <Name>Textures\Ring002</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Ring002.xnb</Output>
-      <Time>2014-12-10T07:40:24.3986-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\SoftClumpy.png</Source>
-      <Name>Textures\SoftClumpy</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\SoftClumpy.xnb</Output>
-      <Time>2014-12-10T07:40:24.4026-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\SoftSmokey.png</Source>
-      <Name>Textures\SoftSmokey</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\SoftSmokey.xnb</Output>
-      <Time>2014-12-10T07:40:24.4066-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Spikey001.png</Source>
-      <Name>Textures\Spikey001</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Spikey001.xnb</Output>
-      <Time>2014-12-10T07:40:24.4106-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Spikey002.png</Source>
-      <Name>Textures\Spikey002</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Spikey002.xnb</Output>
-      <Time>2014-12-10T07:40:24.4166-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Splash.png</Source>
-      <Name>Textures\Splash</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Splash.xnb</Output>
-      <Time>2014-12-10T07:40:24.4216-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Spray001.png</Source>
-      <Name>Textures\Spray001</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Spray001.xnb</Output>
-      <Time>2014-12-10T07:40:24.4266-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\SpriteSheet.png</Source>
-      <Name>Textures\SpriteSheet</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\SpriteSheet.xnb</Output>
-      <Time>2014-12-10T07:40:24.4316-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Star.png</Source>
-      <Name>Textures\Star</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Star.xnb</Output>
-      <Time>2014-12-10T07:40:24.4376-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\TitleScreen.png</Source>
-      <Name>Textures\TitleScreen</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\TitleScreen.xnb</Output>
-      <Time>2014-12-10T07:40:24.4436-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\vial.png</Source>
-      <Name>Textures\vial</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\vial.xnb</Output>
-      <Time>2014-12-10T07:40:24.4486-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Water001.png</Source>
-      <Name>Textures\Water001</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Water001.xnb</Output>
-      <Time>2014-12-10T07:40:24.4536-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Water002.png</Source>
-      <Name>Textures\Water002</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Water002.xnb</Output>
-      <Time>2014-12-10T07:40:24.4586-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Weeds.png</Source>
-      <Name>Textures\Weeds</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Weeds.xnb</Output>
-      <Time>2014-12-10T07:40:24.4636-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Textures\Win.png</Source>
-      <Name>Textures\Win</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Win.xnb</Output>
-      <Time>2014-12-10T07:40:24.4686-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\WaterJet.xnb</Output>
+      <Time>2014-12-11T07:19:25.7006-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\grid.png</Source>
@@ -601,8 +205,404 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\grid.xnb</Output>
-      <Time>2014-12-10T08:36:10.2786-05:00</Time>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\grid.xnb</Output>
+      <Time>2014-12-11T07:19:25.8726-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\background.jpg</Source>
+      <Name>Textures\background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\background.xnb</Output>
+      <Time>2014-12-11T07:19:25.8716-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Bar.png</Source>
+      <Name>Textures\Bar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Bar.xnb</Output>
+      <Time>2014-12-11T07:19:25.7026-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Beam.png</Source>
+      <Name>Textures\Beam</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Beam.xnb</Output>
+      <Time>2014-12-11T07:19:25.7546-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\BeamBlurred.png</Source>
+      <Name>Textures\BeamBlurred</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\BeamBlurred.xnb</Output>
+      <Time>2014-12-11T07:19:25.7546-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\butt.png</Source>
+      <Name>Textures\butt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\butt.xnb</Output>
+      <Time>2014-12-11T07:19:25.8716-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\check.png</Source>
+      <Name>Textures\check</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\check.xnb</Output>
+      <Time>2014-12-11T07:19:25.8726-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Cloud001.png</Source>
+      <Name>Textures\Cloud001</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Cloud001.xnb</Output>
+      <Time>2014-12-11T07:19:25.7926-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Cloud002.png</Source>
+      <Name>Textures\Cloud002</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Cloud002.xnb</Output>
+      <Time>2014-12-11T07:19:25.7936-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Cloud003.png</Source>
+      <Name>Textures\Cloud003</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Cloud003.xnb</Output>
+      <Time>2014-12-11T07:19:25.7946-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Cloud004.png</Source>
+      <Name>Textures\Cloud004</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Cloud004.xnb</Output>
+      <Time>2014-12-11T07:19:25.7946-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Crosshair2.png</Source>
+      <Name>Textures\Crosshair2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Crosshair2.xnb</Output>
+      <Time>2014-12-11T07:19:25.8286-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Custom.png.png</Source>
+      <Name>Textures\Custom.png</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Custom.png.xnb</Output>
+      <Time>2014-12-11T07:19:25.8326-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Flame.png</Source>
+      <Name>Textures\Flame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Flame.xnb</Output>
+      <Time>2014-12-11T07:19:25.8336-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\FlowerBurst.png</Source>
+      <Name>Textures\FlowerBurst</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\FlowerBurst.xnb</Output>
+      <Time>2014-12-11T07:19:25.8336-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\hp.png</Source>
+      <Name>Textures\hp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\hp.xnb</Output>
+      <Time>2014-12-11T07:19:25.8736-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Laser.png</Source>
+      <Name>Textures\Laser</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Laser.xnb</Output>
+      <Time>2014-12-11T07:19:25.8346-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\LensFlare.png</Source>
+      <Name>Textures\LensFlare</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\LensFlare.xnb</Output>
+      <Time>2014-12-11T07:19:25.8356-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\light.png</Source>
+      <Name>Textures\light</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\light.xnb</Output>
+      <Time>2014-12-11T07:19:25.8746-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\MultiDot.png</Source>
+      <Name>Textures\MultiDot</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\MultiDot.xnb</Output>
+      <Time>2014-12-11T07:19:25.8356-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Particle001.png</Source>
+      <Name>Textures\Particle001</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle001.xnb</Output>
+      <Time>2014-12-11T07:19:25.8366-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Particle002.png</Source>
+      <Name>Textures\Particle002</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle002.xnb</Output>
+      <Time>2014-12-11T07:19:25.8376-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Particle003.png</Source>
+      <Name>Textures\Particle003</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle003.xnb</Output>
+      <Time>2014-12-11T07:19:25.8376-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Particle004.png</Source>
+      <Name>Textures\Particle004</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle004.xnb</Output>
+      <Time>2014-12-11T07:19:25.8386-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Particle005.png</Source>
+      <Name>Textures\Particle005</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle005.xnb</Output>
+      <Time>2014-12-11T07:19:25.8396-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Particle006.png</Source>
+      <Name>Textures\Particle006</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle006.xnb</Output>
+      <Time>2014-12-11T07:19:25.8406-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Particle007.png</Source>
+      <Name>Textures\Particle007</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle007.xnb</Output>
+      <Time>2014-12-11T07:19:25.8416-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Pause.png</Source>
+      <Name>Textures\Pause</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Pause.xnb</Output>
+      <Time>2014-12-11T07:19:25.8416-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Planets.png</Source>
+      <Name>Textures\Planets</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Planets.xnb</Output>
+      <Time>2014-12-11T07:19:25.8436-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Ring001.png</Source>
+      <Name>Textures\Ring001</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Ring001.xnb</Output>
+      <Time>2014-12-11T07:19:25.8446-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Ring002.png</Source>
+      <Name>Textures\Ring002</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Ring002.xnb</Output>
+      <Time>2014-12-11T07:19:25.8456-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\SoftClumpy.png</Source>
+      <Name>Textures\SoftClumpy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\SoftClumpy.xnb</Output>
+      <Time>2014-12-11T07:19:25.8466-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\SoftSmokey.png</Source>
+      <Name>Textures\SoftSmokey</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\SoftSmokey.xnb</Output>
+      <Time>2014-12-11T07:19:25.8476-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Spikey001.png</Source>
+      <Name>Textures\Spikey001</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Spikey001.xnb</Output>
+      <Time>2014-12-11T07:19:25.8486-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Spikey002.png</Source>
+      <Name>Textures\Spikey002</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Spikey002.xnb</Output>
+      <Time>2014-12-11T07:19:25.8496-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Splash.png</Source>
+      <Name>Textures\Splash</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Splash.xnb</Output>
+      <Time>2014-12-11T07:19:25.8506-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Spray001.png</Source>
+      <Name>Textures\Spray001</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Spray001.xnb</Output>
+      <Time>2014-12-11T07:19:25.8506-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\SpriteSheet.png</Source>
+      <Name>Textures\SpriteSheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\SpriteSheet.xnb</Output>
+      <Time>2014-12-11T07:19:25.8526-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Star.png</Source>
+      <Name>Textures\Star</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Star.xnb</Output>
+      <Time>2014-12-11T07:19:25.8536-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\TitleScreen.png</Source>
+      <Name>Textures\TitleScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\TitleScreen.xnb</Output>
+      <Time>2014-12-11T07:19:25.8636-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\vial.png</Source>
+      <Name>Textures\vial</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\vial.xnb</Output>
+      <Time>2014-12-11T07:19:25.8756-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Water001.png</Source>
+      <Name>Textures\Water001</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Water001.xnb</Output>
+      <Time>2014-12-11T07:19:25.8676-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Water002.png</Source>
+      <Name>Textures\Water002</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Water002.xnb</Output>
+      <Time>2014-12-11T07:19:25.8686-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Weeds.png</Source>
+      <Name>Textures\Weeds</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Weeds.xnb</Output>
+      <Time>2014-12-11T07:19:25.8696-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Win.png</Source>
+      <Name>Textures\Win</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Win.xnb</Output>
+      <Time>2014-12-11T07:19:25.8696-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -610,19 +610,19 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTroubleContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTroubleContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTroubleContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTroubleContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\ProjectMercury.dll</Key>
-        <Value>2014-12-10T07:24:03.6756-05:00</Value>
+        <Key>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\ProjectMercury.dll</Key>
+        <Value>2014-12-11T07:19:24.9596-05:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\ProjectMercury.ContentPipeline.dll</Key>
-        <Value>2014-12-10T07:24:03.6746-05:00</Value>
+        <Key>C:\Users\EAHSCS\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\ProjectMercury.ContentPipeline.dll</Key>
+        <Value>2014-12-11T07:19:24.9586-05:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
