@@ -16,14 +16,16 @@ namespace TowerTrouble
         public int nextY = 0;
         public int thisX = 0;
         public int thisY = 0;
+        public bool render;
 
-        public Tiles(Sprite sprite,String tower,bool collide)
+        public Tiles(Sprite sprite,String tower,bool collide,bool render)
         {
             this.collideablie = collide;
             this.tower = tower;
             this.sprite = sprite;
             this.nextX = 0;
             this.nextY = 0;
+            this.render = render;
         }
         public void changeto(int x, int y)
         {

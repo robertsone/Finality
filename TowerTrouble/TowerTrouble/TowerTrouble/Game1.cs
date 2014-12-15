@@ -35,7 +35,7 @@ namespace TowerTrouble
         {
 
             Tiles[,] New = new Tiles[17, 17];
-            New[8, 8] = new Tiles(tiles[9, 9].sprite, tiles[9,9].tower, tiles[9,9].collideablie);
+            New[8, 7] = new Tiles(tiles[8,7].sprite, tiles[8,7].tower, tiles[8,7].collideablie,false);
 
             for (int i = 0; i < tileWidth; i++)
             {
@@ -43,7 +43,7 @@ namespace TowerTrouble
                 {
                     if (tiles[i, j].collideablie == true)
                     {
-                        New[i,j]=new Tiles(tiles[i,j].sprite,tiles[i,j].tower,tiles[i,j].collideablie);
+                        New[i,j]=new Tiles(tiles[i,j].sprite,tiles[i,j].tower,tiles[i,j].collideablie,true);
                     }
                 }
             }
@@ -59,34 +59,46 @@ namespace TowerTrouble
                         {
                             if (i + 1 <= 16)
                             {
-                                if (New[i + 1, j] == null)
+                                if (New[i + 1, j].render == false)
                                 {
-                                    New[i + 1, j] = new Tiles(tiles[i, j].sprite, tiles[i, j].tower, tiles[i, j].collideablie);
-                                    New[i + 1, j].changeto(i, j);
+                                    if (New[i + 1, j] == null)
+                                    {
+                                        New[i + 1, j] = new Tiles(tiles[i + 1, j].sprite, tiles[i + 1, j].tower, tiles[i + 1, j].collideablie, false);
+                                        New[i + 1, j].changeto(i, j);
+                                    }
                                 }
                             }
                             if (i - 1 >= 0)
                             {
-                                if (New[i - 1, j] == null)
+                                if (New[i - 1, j].render == false)
                                 {
-                                    New[i - 1, j] = new Tiles(tiles[i, j].sprite, tiles[i, j].tower, tiles[i, j].collideablie);
-                                    New[i - 1, j].changeto(i, j);
+                                    if (New[i - 1, j] == null)
+                                    {
+                                        New[i - 1, j] = new Tiles(tiles[i - 1, j].sprite, tiles[i - 1, j].tower, tiles[i - 1, j].collideablie, false);
+                                        New[i - 1, j].changeto(i, j);
+                                    }
                                 }
                             }
                             if (j + 1 <= 16)
                             {
-                                if (New[i, j + 1] == null)
+                                if (New[i, j+1].render == false)
                                 {
-                                    New[i, j + 1] = new Tiles(tiles[i, j].sprite, tiles[i, j].tower, tiles[i, j].collideablie);
-                                    New[i, j + 1].changeto(i, j);
+                                    if (New[i, j + 1] == null)
+                                    {
+                                        New[i, j + 1] = new Tiles(tiles[i, j + 1].sprite, tiles[i, j + 1].tower, tiles[i, j + 1].collideablie, false);
+                                        New[i, j + 1].changeto(i, j);
+                                    }
                                 }
                             }
                             if (j - 1 >= 0)
                             {
-                                if (New[i, j - 1] == null && j - 1 >= 0)
+                                if (New[i, j-1].render == false)
                                 {
-                                    New[i, j - 1] = new Tiles(tiles[i, j].sprite, tiles[i, j].tower, tiles[i, j].collideablie);
-                                    New[i, j - 1].changeto(i, j);
+                                    if (New[i, j - 1] == null && j - 1 >= 0)
+                                    {
+                                        New[i, j - 1] = new Tiles(tiles[i, j - 1].sprite, tiles[i, j - 1].tower, tiles[i, j - 1].collideablie, false);
+                                        New[i, j - 1].changeto(i, j);
+                                    }
                                 }
                             }
                             
@@ -115,7 +127,7 @@ namespace TowerTrouble
 
                 for (int j = 0; j < tileHeight; j++)
                 {
-                    grid[i,j] = new Tiles(new Sprite(new Vector2(i * tileSize, j * tileSize), Tiles, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)),"none",false);
+                    grid[i,j] = new Tiles(new Sprite(new Vector2(i * tileSize, j * tileSize), Tiles, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)),"none",false,false);
                 }
 
             }
@@ -123,7 +135,9 @@ namespace TowerTrouble
             EffectManager.Initialize(graphics, Content);
             EffectManager.LoadContent();
             grid=CalculatePath(grid);
+            grid[0, 3] = new Tiles(new Sprite(new Vector2(0, 32), Tiles, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), "none", true,true);
             enemies.Add(new enemies(new Sprite(new Vector2(0, 0), Tiles, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)),0,0));
+            enemies[0].sprite.TintColor = Color.Gray;
             
         }
 
@@ -138,9 +152,10 @@ namespace TowerTrouble
 
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
+
             for (int i = 0; i < enemies.Count; i++)
             {
-                enemies[i].sprite.Velocity = new Vector2(0, 0);
+                enemies[i].update(grid);
             }
 
             for (int i = 0; i < enemies.Count; i++)
@@ -161,6 +176,10 @@ namespace TowerTrouble
                 {
                     grid[i,j].sprite.Draw(spriteBatch);
                 }
+            }
+            for (int i = 0; i < enemies.Count; i++)
+            {
+                enemies[i].sprite.Draw(spriteBatch);
             }
             spriteBatch.End();
             base.Draw(gameTime);
