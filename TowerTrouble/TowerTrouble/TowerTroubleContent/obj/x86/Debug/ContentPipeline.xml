@@ -8,7 +8,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BasicExplosion.xnb</Output>
-      <Time>2014-12-15T07:25:49.9762-05:00</Time>
+      <Time>2014-12-16T07:20:13.8806-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\BasicExplosionWithHalo.xml</Source>
@@ -17,7 +17,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithHalo.xnb</Output>
-      <Time>2014-12-15T07:25:49.9772-05:00</Time>
+      <Time>2014-12-16T07:20:13.9056-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\BasicExplosionWithTrails2.xml</Source>
@@ -26,7 +26,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithTrails2.xnb</Output>
-      <Time>2014-12-15T07:25:49.9782-05:00</Time>
+      <Time>2014-12-16T07:20:13.9916-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\BasicFireball.xml</Source>
@@ -35,7 +35,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BasicFireball.xnb</Output>
-      <Time>2014-12-15T07:25:49.9792-05:00</Time>
+      <Time>2014-12-16T07:20:13.9926-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\BasicSmokePlume.xml</Source>
@@ -44,7 +44,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BasicSmokePlume.xnb</Output>
-      <Time>2014-12-15T07:25:49.9792-05:00</Time>
+      <Time>2014-12-16T07:20:13.9936-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\BeamMeUp.xml</Source>
@@ -53,7 +53,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BeamMeUp.xnb</Output>
-      <Time>2014-12-15T07:25:49.9802-05:00</Time>
+      <Time>2014-12-16T07:20:14.0576-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\CampFire.xml</Source>
@@ -62,7 +62,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\CampFire.xnb</Output>
-      <Time>2014-12-15T07:25:49.9812-05:00</Time>
+      <Time>2014-12-16T07:20:14.0586-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\Enemy Cannon Fire.xml</Source>
@@ -71,7 +71,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\Enemy Cannon Fire.xnb</Output>
-      <Time>2014-12-15T07:25:49.9822-05:00</Time>
+      <Time>2014-12-16T07:20:14.0586-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\FlowerBloom.xml</Source>
@@ -80,7 +80,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\FlowerBloom.xnb</Output>
-      <Time>2014-12-15T07:25:49.9822-05:00</Time>
+      <Time>2014-12-16T07:20:14.0596-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\MagicTrail.xml</Source>
@@ -89,7 +89,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\MagicTrail.xnb</Output>
-      <Time>2014-12-15T07:25:49.9832-05:00</Time>
+      <Time>2014-12-16T07:20:14.1436-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\MeteroidCollision.xml</Source>
@@ -98,7 +98,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\MeteroidCollision.xnb</Output>
-      <Time>2014-12-15T07:25:49.9832-05:00</Time>
+      <Time>2014-12-16T07:20:14.1476-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\MeteroidExplode.xml</Source>
@@ -107,7 +107,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\MeteroidExplode.xnb</Output>
-      <Time>2014-12-15T07:25:49.9842-05:00</Time>
+      <Time>2014-12-16T07:20:14.1496-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\Paparazzi.xml</Source>
@@ -116,7 +116,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\Paparazzi.xnb</Output>
-      <Time>2014-12-15T07:25:49.9852-05:00</Time>
+      <Time>2014-12-16T07:20:14.1506-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\PulseTracker.xml</Source>
@@ -125,7 +125,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\PulseTracker.xnb</Output>
-      <Time>2014-12-15T07:25:49.9852-05:00</Time>
+      <Time>2014-12-16T07:20:14.2106-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\ShieldBounce.xml</Source>
@@ -134,7 +134,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\ShieldBounce.xnb</Output>
-      <Time>2014-12-15T07:25:49.9862-05:00</Time>
+      <Time>2014-12-16T07:20:14.3176-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\ShieldsUp.xml</Source>
@@ -143,7 +143,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\ShieldsUp.xnb</Output>
-      <Time>2014-12-15T07:25:49.9862-05:00</Time>
+      <Time>2014-12-16T07:20:14.3506-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\Ship Cannon Fire.xml</Source>
@@ -152,7 +152,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\Ship Cannon Fire.xnb</Output>
-      <Time>2014-12-15T07:25:49.9872-05:00</Time>
+      <Time>2014-12-16T07:20:14.4046-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\ShipSmokeTrail.xml</Source>
@@ -161,7 +161,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\ShipSmokeTrail.xnb</Output>
-      <Time>2014-12-15T07:25:49.9882-05:00</Time>
+      <Time>2014-12-16T07:20:14.4066-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\SimpleRain.xml</Source>
@@ -170,7 +170,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\SimpleRain.xnb</Output>
-      <Time>2014-12-15T07:25:49.9882-05:00</Time>
+      <Time>2014-12-16T07:20:14.4426-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\StarFireImpact.xml</Source>
@@ -179,7 +179,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\StarFireImpact.xnb</Output>
-      <Time>2014-12-15T07:25:49.9892-05:00</Time>
+      <Time>2014-12-16T07:20:14.4436-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\StarTrail.xml</Source>
@@ -188,7 +188,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\StarTrail.xnb</Output>
-      <Time>2014-12-15T07:25:49.9902-05:00</Time>
+      <Time>2014-12-16T07:20:14.5266-05:00</Time>
     </Item>
     <Item>
       <Source>EffectLibrary\WaterJet.xml</Source>
@@ -197,7 +197,7 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\WaterJet.xnb</Output>
-      <Time>2014-12-15T07:25:49.9902-05:00</Time>
+      <Time>2014-12-16T07:20:14.5286-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\grid.png</Source>
@@ -206,7 +206,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\grid.xnb</Output>
-      <Time>2014-12-15T07:25:50.0312-05:00</Time>
+      <Time>2014-12-16T07:20:14.9806-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\background.jpg</Source>
@@ -215,7 +215,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\background.xnb</Output>
-      <Time>2014-12-15T07:25:50.0292-05:00</Time>
+      <Time>2014-12-16T07:20:14.9486-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Bar.png</Source>
@@ -224,7 +224,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Bar.xnb</Output>
-      <Time>2014-12-15T07:25:49.9912-05:00</Time>
+      <Time>2014-12-16T07:20:14.5286-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Beam.png</Source>
@@ -233,7 +233,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Beam.xnb</Output>
-      <Time>2014-12-15T07:25:49.9922-05:00</Time>
+      <Time>2014-12-16T07:20:14.5316-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\BeamBlurred.png</Source>
@@ -242,7 +242,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\BeamBlurred.xnb</Output>
-      <Time>2014-12-15T07:25:49.9922-05:00</Time>
+      <Time>2014-12-16T07:20:14.5326-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\butt.png</Source>
@@ -251,7 +251,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\butt.xnb</Output>
-      <Time>2014-12-15T07:25:50.0292-05:00</Time>
+      <Time>2014-12-16T07:20:14.9496-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\check.png</Source>
@@ -260,7 +260,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\check.xnb</Output>
-      <Time>2014-12-15T07:25:50.0302-05:00</Time>
+      <Time>2014-12-16T07:20:14.9796-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Cloud001.png</Source>
@@ -269,7 +269,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Cloud001.xnb</Output>
-      <Time>2014-12-15T07:25:49.9932-05:00</Time>
+      <Time>2014-12-16T07:20:14.5326-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Cloud002.png</Source>
@@ -278,7 +278,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Cloud002.xnb</Output>
-      <Time>2014-12-15T07:25:49.9942-05:00</Time>
+      <Time>2014-12-16T07:20:14.5336-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Cloud003.png</Source>
@@ -287,7 +287,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Cloud003.xnb</Output>
-      <Time>2014-12-15T07:25:49.9952-05:00</Time>
+      <Time>2014-12-16T07:20:14.6396-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Cloud004.png</Source>
@@ -296,7 +296,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Cloud004.xnb</Output>
-      <Time>2014-12-15T07:25:49.9952-05:00</Time>
+      <Time>2014-12-16T07:20:14.6396-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Crosshair2.png</Source>
@@ -305,7 +305,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Crosshair2.xnb</Output>
-      <Time>2014-12-15T07:25:49.9962-05:00</Time>
+      <Time>2014-12-16T07:20:14.6406-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Custom.png.png</Source>
@@ -314,7 +314,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Custom.png.xnb</Output>
-      <Time>2014-12-15T07:25:50.0012-05:00</Time>
+      <Time>2014-12-16T07:20:14.6446-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Flame.png</Source>
@@ -323,7 +323,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Flame.xnb</Output>
-      <Time>2014-12-15T07:25:50.0012-05:00</Time>
+      <Time>2014-12-16T07:20:14.6706-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\FlowerBurst.png</Source>
@@ -332,7 +332,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\FlowerBurst.xnb</Output>
-      <Time>2014-12-15T07:25:50.0022-05:00</Time>
+      <Time>2014-12-16T07:20:14.6716-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\hp.png</Source>
@@ -341,7 +341,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\hp.xnb</Output>
-      <Time>2014-12-15T07:25:50.0312-05:00</Time>
+      <Time>2014-12-16T07:20:14.9806-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Laser.png</Source>
@@ -350,7 +350,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Laser.xnb</Output>
-      <Time>2014-12-15T07:25:50.0022-05:00</Time>
+      <Time>2014-12-16T07:20:14.6716-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\LensFlare.png</Source>
@@ -359,7 +359,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\LensFlare.xnb</Output>
-      <Time>2014-12-15T07:25:50.0032-05:00</Time>
+      <Time>2014-12-16T07:20:14.6716-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\light.png</Source>
@@ -368,7 +368,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\light.xnb</Output>
-      <Time>2014-12-15T07:25:50.0332-05:00</Time>
+      <Time>2014-12-16T07:20:14.9826-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\MultiDot.png</Source>
@@ -377,7 +377,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\MultiDot.xnb</Output>
-      <Time>2014-12-15T07:25:50.0042-05:00</Time>
+      <Time>2014-12-16T07:20:14.7296-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Particle001.png</Source>
@@ -386,7 +386,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle001.xnb</Output>
-      <Time>2014-12-15T07:25:50.0042-05:00</Time>
+      <Time>2014-12-16T07:20:14.7306-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Particle002.png</Source>
@@ -395,7 +395,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle002.xnb</Output>
-      <Time>2014-12-15T07:25:50.0052-05:00</Time>
+      <Time>2014-12-16T07:20:14.7306-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Particle003.png</Source>
@@ -404,7 +404,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle003.xnb</Output>
-      <Time>2014-12-15T07:25:50.0062-05:00</Time>
+      <Time>2014-12-16T07:20:14.7316-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Particle004.png</Source>
@@ -413,7 +413,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle004.xnb</Output>
-      <Time>2014-12-15T07:25:50.0062-05:00</Time>
+      <Time>2014-12-16T07:20:14.7466-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Particle005.png</Source>
@@ -422,7 +422,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle005.xnb</Output>
-      <Time>2014-12-15T07:25:50.0072-05:00</Time>
+      <Time>2014-12-16T07:20:14.7476-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Particle006.png</Source>
@@ -431,7 +431,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle006.xnb</Output>
-      <Time>2014-12-15T07:25:50.0082-05:00</Time>
+      <Time>2014-12-16T07:20:14.7476-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Particle007.png</Source>
@@ -440,7 +440,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle007.xnb</Output>
-      <Time>2014-12-15T07:25:50.0082-05:00</Time>
+      <Time>2014-12-16T07:20:14.7476-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Pause.png</Source>
@@ -449,7 +449,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Pause.xnb</Output>
-      <Time>2014-12-15T07:25:50.0092-05:00</Time>
+      <Time>2014-12-16T07:20:14.7496-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Planets.png</Source>
@@ -458,7 +458,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Planets.xnb</Output>
-      <Time>2014-12-15T07:25:50.0102-05:00</Time>
+      <Time>2014-12-16T07:20:14.7506-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Ring001.png</Source>
@@ -467,7 +467,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Ring001.xnb</Output>
-      <Time>2014-12-15T07:25:50.0112-05:00</Time>
+      <Time>2014-12-16T07:20:14.7506-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Ring002.png</Source>
@@ -476,7 +476,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Ring002.xnb</Output>
-      <Time>2014-12-15T07:25:50.0112-05:00</Time>
+      <Time>2014-12-16T07:20:14.7756-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\SoftClumpy.png</Source>
@@ -485,7 +485,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\SoftClumpy.xnb</Output>
-      <Time>2014-12-15T07:25:50.0122-05:00</Time>
+      <Time>2014-12-16T07:20:14.7996-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\SoftSmokey.png</Source>
@@ -494,7 +494,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\SoftSmokey.xnb</Output>
-      <Time>2014-12-15T07:25:50.0122-05:00</Time>
+      <Time>2014-12-16T07:20:14.8006-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Spikey001.png</Source>
@@ -503,7 +503,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Spikey001.xnb</Output>
-      <Time>2014-12-15T07:25:50.0132-05:00</Time>
+      <Time>2014-12-16T07:20:14.8016-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Spikey002.png</Source>
@@ -512,7 +512,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Spikey002.xnb</Output>
-      <Time>2014-12-15T07:25:50.0132-05:00</Time>
+      <Time>2014-12-16T07:20:14.8026-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Splash.png</Source>
@@ -521,7 +521,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Splash.xnb</Output>
-      <Time>2014-12-15T07:25:50.0142-05:00</Time>
+      <Time>2014-12-16T07:20:14.8216-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Spray001.png</Source>
@@ -530,7 +530,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Spray001.xnb</Output>
-      <Time>2014-12-15T07:25:50.0142-05:00</Time>
+      <Time>2014-12-16T07:20:14.8216-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\SpriteSheet.png</Source>
@@ -539,7 +539,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\SpriteSheet.xnb</Output>
-      <Time>2014-12-15T07:25:50.0162-05:00</Time>
+      <Time>2014-12-16T07:20:14.8236-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Star.png</Source>
@@ -548,7 +548,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Star.xnb</Output>
-      <Time>2014-12-15T07:25:50.0162-05:00</Time>
+      <Time>2014-12-16T07:20:14.8236-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\TitleScreen.png</Source>
@@ -557,7 +557,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\TitleScreen.xnb</Output>
-      <Time>2014-12-15T07:25:50.0252-05:00</Time>
+      <Time>2014-12-16T07:20:14.8766-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\vial.png</Source>
@@ -566,7 +566,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\vial.xnb</Output>
-      <Time>2014-12-15T07:25:50.0332-05:00</Time>
+      <Time>2014-12-16T07:20:14.9936-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Water001.png</Source>
@@ -575,7 +575,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Water001.xnb</Output>
-      <Time>2014-12-15T07:25:50.0262-05:00</Time>
+      <Time>2014-12-16T07:20:14.8776-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Water002.png</Source>
@@ -584,7 +584,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Water002.xnb</Output>
-      <Time>2014-12-15T07:25:50.0272-05:00</Time>
+      <Time>2014-12-16T07:20:14.8776-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Weeds.png</Source>
@@ -593,7 +593,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Weeds.xnb</Output>
-      <Time>2014-12-15T07:25:50.0272-05:00</Time>
+      <Time>2014-12-16T07:20:14.9456-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\Win.png</Source>
@@ -602,7 +602,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Win.xnb</Output>
-      <Time>2014-12-15T07:25:50.0282-05:00</Time>
+      <Time>2014-12-16T07:20:14.9466-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -618,11 +618,11 @@
     <Assemblies>
       <Assembly>
         <Key>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\ProjectMercury.dll</Key>
-        <Value>2014-12-15T07:25:49.7802-05:00</Value>
+        <Value>2014-12-16T07:20:12.2506-05:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\ProjectMercury.ContentPipeline.dll</Key>
-        <Value>2014-12-15T07:25:49.7782-05:00</Value>
+        <Value>2014-12-16T07:20:12.2496-05:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>

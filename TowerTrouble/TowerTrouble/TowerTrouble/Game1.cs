@@ -55,51 +55,45 @@ namespace TowerTrouble
                 {
                     for (int j = 0; j < tileHeight; j++)
                     {
-                        if (New[i, j] != null)
+                        if (New[i, j] != null && New[i, j].render == false)
                         {
+
                             if (i + 1 <= 16)
                             {
-                                if (New[i + 1, j].render == false)
-                                {
                                     if (New[i + 1, j] == null)
                                     {
                                         New[i + 1, j] = new Tiles(tiles[i + 1, j].sprite, tiles[i + 1, j].tower, tiles[i + 1, j].collideablie, false);
                                         New[i + 1, j].changeto(i, j);
                                     }
-                                }
                             }
                             if (i - 1 >= 0)
                             {
-                                if (New[i - 1, j].render == false)
-                                {
+                               
                                     if (New[i - 1, j] == null)
                                     {
                                         New[i - 1, j] = new Tiles(tiles[i - 1, j].sprite, tiles[i - 1, j].tower, tiles[i - 1, j].collideablie, false);
                                         New[i - 1, j].changeto(i, j);
                                     }
-                                }
                             }
                             if (j + 1 <= 16)
                             {
-                                if (New[i, j+1].render == false)
-                                {
+                                
                                     if (New[i, j + 1] == null)
                                     {
                                         New[i, j + 1] = new Tiles(tiles[i, j + 1].sprite, tiles[i, j + 1].tower, tiles[i, j + 1].collideablie, false);
                                         New[i, j + 1].changeto(i, j);
                                     }
-                                }
+                                
                             }
                             if (j - 1 >= 0)
                             {
-                                if (New[i, j-1].render == false)
-                                {
+                                
                                     if (New[i, j - 1] == null && j - 1 >= 0)
                                     {
                                         New[i, j - 1] = new Tiles(tiles[i, j - 1].sprite, tiles[i, j - 1].tower, tiles[i, j - 1].collideablie, false);
                                         New[i, j - 1].changeto(i, j);
                                     }
-                                }
+                                
                             }
                             
                         }
@@ -134,8 +128,9 @@ namespace TowerTrouble
 
             EffectManager.Initialize(graphics, Content);
             EffectManager.LoadContent();
+            grid[0, 3] = new Tiles(new Sprite(new Vector2(0, 32), Tiles, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), "none", true, true);
             grid=CalculatePath(grid);
-            grid[0, 3] = new Tiles(new Sprite(new Vector2(0, 32), Tiles, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), "none", true,true);
+            
             enemies.Add(new enemies(new Sprite(new Vector2(0, 0), Tiles, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)),0,0));
             enemies[0].sprite.TintColor = Color.Gray;
             
