@@ -24,7 +24,9 @@ namespace TowerTrouble
         int tileHeight=17;
         int tileSize=32;
         Texture2D Tiles;
-
+        bool Canclick=false;
+        bool leftMouseClicked = false;
+        Rectangle mouserect;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -128,6 +130,7 @@ namespace TowerTrouble
 
             EffectManager.Initialize(graphics, Content);
             EffectManager.LoadContent();
+
             grid[0, 3] = new Tiles(new Sprite(new Vector2(0, 32), Tiles, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), "none", true, true);
             grid=CalculatePath(grid);
             
@@ -136,7 +139,20 @@ namespace TowerTrouble
             
         }
 
-
+        public Tiles[,] placedTower(Tiles[,] grids, Rectangle mouserect)
+        {
+            for (int i = 0; i < tileWidth; i++)
+            {
+                for (int j = 0; j < tileHeight; j++)
+                {
+                    if (grid[i, j].sprite.IsBoxColliding(mouserect))
+                    {
+                        grid[i, j] = new Tiles(new Sprite(new Vector2(0, 32), Tiles, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), "none", true, true);
+                    }
+                }
+            }
+            return CalculatePath(grid);
+        }
         protected override void UnloadContent()
         {
             
@@ -147,6 +163,25 @@ namespace TowerTrouble
 
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
+
+            MouseState ms = Mouse.GetState();
+
+            leftMouseClicked = false;
+            if (ms.LeftButton != ButtonState.Pressed)
+                Canclick = true;
+            if (ms.LeftButton == ButtonState.Pressed && Canclick == true)
+            {
+                leftMouseClicked = true;
+                Canclick = false;
+            }
+            mouserect = new Rectangle(ms.X, ms.Y, 1, 1);
+            IsMouseVisible = true;
+
+            if (leftMouseClicked)
+            {
+                grid = placedTower(grid, mouserect);  
+            }
+
 
             for (int i = 0; i < enemies.Count; i++)
             {
