@@ -17,7 +17,7 @@ namespace TowerTrouble
         public int thisX = 0;
         public int thisY = 0;
         public bool render;
-
+        public bool fail;
         public Tiles(Sprite sprite,String tower,bool collide,bool render)
         {
             this.collideablie = collide;
@@ -26,6 +26,7 @@ namespace TowerTrouble
             this.nextX = 0;
             this.nextY = 0;
             this.render = render;
+            this.fail = false;
         }
         public void changeto(int x, int y)
         {

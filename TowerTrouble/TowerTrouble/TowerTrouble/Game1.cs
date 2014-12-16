@@ -17,11 +17,11 @@ namespace TowerTrouble
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        public Tiles[,] grid = new Tiles[17, 17];
+        public Tiles[,] grid = new Tiles[17, 15];
         public List<enemies> enemies = new List<enemies>();
 
         int tileWidth=17;
-        int tileHeight=17;
+        int tileHeight=15;
         int tileSize=32;
         Texture2D Tiles;
         Texture2D Orbs;
@@ -38,8 +38,8 @@ namespace TowerTrouble
         public Tiles[,] CalculatePath(Tiles[,] tiles)
         {
 
-            Tiles[,] New = new Tiles[17, 17];
-            New[8, 7] = new Tiles(new Sprite(new Vector2(8*tileSize,7*tileSize), Orbs, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), "orb", false, false);
+            Tiles[,] New = new Tiles[17, 15];
+            New[8, 7] = new Tiles(new Sprite(new Vector2(8*tileSize,7*tileSize), Orbs, new Rectangle(32, 64, 32, 32), new Vector2(0, 0)), "orb", false, false);
 
             for (int i = 0; i < tileWidth; i++)
             {
@@ -79,7 +79,7 @@ namespace TowerTrouble
                                         New[i - 1, j].changeto(i, j);
                                     }
                             }
-                            if (j + 1 <= 16)
+                            if (j + 1 <= 14)
                             {
                                 
                                     if (New[i, j + 1] == null)
@@ -103,6 +103,16 @@ namespace TowerTrouble
                         }
                     }
 
+                }
+            }
+            for (int i = 0; i < tileWidth; i++)
+            {
+                for (int j = 0; j < tileHeight; j++)
+                {
+                    if (grid[i, j].render==null)
+                    {
+                        New[0, 0].fail = true;
+                    }
                 }
             }
             return New;
@@ -137,6 +147,8 @@ namespace TowerTrouble
             EffectManager.LoadContent();
 
             grid[0, 3] = new Tiles(new Sprite(new Vector2(0, 32), Tiles, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), "none", true, true);
+            grid[1,2] = new Tiles(new Sprite(new Vector2(0, 32), Tiles, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), "none", true, true);
+            grid[1, 4] = new Tiles(new Sprite(new Vector2(0, 32), Tiles, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), "none", true, true);
             grid=CalculatePath(grid);
             
             enemies.Add(new enemies(new Sprite(new Vector2(0, 0), Tiles, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)),0,0));
@@ -146,17 +158,32 @@ namespace TowerTrouble
 
         public Tiles[,] placedTower(Tiles[,] grids, Rectangle mouserect)
         {
+            Tiles[,] yellow = new Tiles[tileWidth,tileHeight];
+
             for (int i = 0; i < tileWidth; i++)
             {
                 for (int j = 0; j < tileHeight; j++)
                 {
-                    if (grid[i, j].sprite.IsBoxColliding(mouserect))
+                    yellow[i, j] = grids[i, j];
+
+                    if (grids[i, j].sprite.IsBoxColliding(mouserect))
                     {
-                        grid[i, j] = new Tiles(new Sprite(new Vector2(0, 32), Tiles, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), "none", true, true);
+                        grids[i, j] = new Tiles(new Sprite(new Vector2(0, 32), Tiles, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), "none", true, true);
                     }
                 }
             }
-            return CalculatePath(grid);
+            grids = CalculatePath(grid);
+            for (int i = 0; i < tileWidth; i++)
+            {
+                for (int j = 0; j < tileHeight; j++)
+                {
+                    if (grids[i,j]==null)
+                    {
+                        return yellow;
+                    }
+                }
+            }
+            return grids; 
         }
         protected override void UnloadContent()
         {
@@ -197,7 +224,8 @@ namespace TowerTrouble
             {
                 enemies[i].sprite.Update(gameTime);
             }
-
+            //EffectManager.Effect("PulseTracker").Trigger(grid[8, 7].sprite.Center); EffectManager.Effect("ShieldsUp").Trigger(grid[8, 7].sprite.Center);
+            EffectManager.Update(gameTime);
             base.Update(gameTime);
         }
         protected override void Draw(GameTime gameTime)
@@ -213,12 +241,14 @@ namespace TowerTrouble
                 }
             }
             new Sprite(new Vector2(0, 32), grass, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)).Draw(spriteBatch);
-            new Sprite(new Vector2(8*32, 7*32), grass, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)).Draw(spriteBatch); grid[8, 7].sprite.Draw(spriteBatch);
+            new Sprite(new Vector2(8 * 32, 7 * 32), grass, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)).Draw(spriteBatch); grid[8, 7].sprite.Draw(spriteBatch);
+            
             for (int i = 0; i < enemies.Count; i++)
             {
                 enemies[i].sprite.Draw(spriteBatch);
             }
             spriteBatch.End();
+            EffectManager.Draw();
             base.Draw(gameTime);
         }
     }
