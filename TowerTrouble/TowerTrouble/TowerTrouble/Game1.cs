@@ -24,6 +24,8 @@ namespace TowerTrouble
         int tileHeight=17;
         int tileSize=32;
         Texture2D Tiles;
+        Texture2D Orbs;
+        Texture2D Enemy, grass;
         bool Canclick=false;
         bool leftMouseClicked = false;
         Rectangle mouserect;
@@ -37,7 +39,7 @@ namespace TowerTrouble
         {
 
             Tiles[,] New = new Tiles[17, 17];
-            New[8, 7] = new Tiles(tiles[8,7].sprite, tiles[8,7].tower, tiles[8,7].collideablie,false);
+            New[8, 7] = new Tiles(new Sprite(new Vector2(8*tileSize,7*tileSize), Orbs, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), "orb", false, false);
 
             for (int i = 0; i < tileWidth; i++)
             {
@@ -117,13 +119,16 @@ namespace TowerTrouble
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
             Tiles = Content.Load<Texture2D>(@"Textures\grid");
-
+            Orbs = Content.Load<Texture2D>(@"this game\orbs");
+            Enemy = Content.Load<Texture2D>(@"this game\spritesheet");
+            grass = Content.Load<Texture2D>(@"this game\grass");
+            
             for (int i = 0; i < tileWidth; i++)
             {
 
                 for (int j = 0; j < tileHeight; j++)
                 {
-                    grid[i,j] = new Tiles(new Sprite(new Vector2(i * tileSize, j * tileSize), Tiles, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)),"none",false,false);
+                    grid[i,j] = new Tiles(new Sprite(new Vector2(i * tileSize, j * tileSize), grass, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)),"none",false,false);
                 }
 
             }
@@ -207,6 +212,8 @@ namespace TowerTrouble
                     grid[i,j].sprite.Draw(spriteBatch);
                 }
             }
+            new Sprite(new Vector2(0, 32), grass, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)).Draw(spriteBatch);
+            new Sprite(new Vector2(8*32, 7*32), grass, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)).Draw(spriteBatch); grid[8, 7].sprite.Draw(spriteBatch);
             for (int i = 0; i < enemies.Count; i++)
             {
                 enemies[i].sprite.Draw(spriteBatch);
