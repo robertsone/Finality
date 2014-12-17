@@ -32,6 +32,7 @@ namespace TowerTrouble
         bool leftMouseClicked = false;
         Rectangle mouserect;
         public int money;
+        public int lives;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -139,6 +140,7 @@ namespace TowerTrouble
             wood = Content.Load<Texture2D>(@"this game\wood");
             sprites = Content.Load<Texture2D>(@"this game\paths_and_money");
             money = 100;
+            lives = 10;
             for (int i = 0; i < tileWidth; i++)
             {
 
@@ -251,8 +253,10 @@ namespace TowerTrouble
             new Sprite(new Vector2(0, 32), grass, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)).Draw(spriteBatch);
             new Sprite(new Vector2(8 * 32, 7 * 32), grass, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)).Draw(spriteBatch);
             new Sprite(new Vector2(540, 0), wood, new Rectangle(0, 0, 260, 480), new Vector2(0, 0)).Draw(spriteBatch); //wood
-            new Sprite(new Vector2(545, 10), sprites, new Rectangle(73, 600, 50, 60), new Vector2(0, 0)).Draw(spriteBatch); //money
-            spriteBatch.DrawString(Font1, Convert.ToString(money), new Vector2(600, 40), Color.Gold);
+            new Sprite(new Vector2(545, 5), sprites, new Rectangle(73, 600, 50, 60), new Vector2(0, 0)).Draw(spriteBatch); //money
+            new Sprite(new Vector2(700, 30), sprites, new Rectangle(133, 152, 50, 20), new Vector2(0, 0)).Draw(spriteBatch); //lives
+            spriteBatch.DrawString(Font1, Convert.ToString(money), new Vector2(600, 30), Color.Gold);//cash
+            spriteBatch.DrawString(Font1, Convert.ToString(lives), new Vector2(755, 30), Color.Gold);//lives
             for (int i = 0; i < enemies.Count; i++)
             {
                 enemies[i].sprite.Draw(spriteBatch);
