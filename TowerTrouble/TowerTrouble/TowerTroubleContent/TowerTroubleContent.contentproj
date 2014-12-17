@@ -389,13 +389,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="this game\spritesheet.png">
-      <Name>spritesheet</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="this game\paths_and_money.png">
       <Name>paths_and_money</Name>
       <Importer>TextureImporter</Importer>
@@ -427,6 +420,20 @@
   <ItemGroup>
     <Compile Include="this game\grass.png">
       <Name>grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="this game\spritesheet.png">
+      <Name>spritesheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="this game\wood.jpg">
+      <Name>wood</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

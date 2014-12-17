@@ -25,6 +25,7 @@ namespace TowerTrouble
         int tileSize=32;
         Texture2D Tiles;
         Texture2D Orbs;
+        Texture2D wood;
         Texture2D Enemy, grass;
         bool Canclick=false;
         bool leftMouseClicked = false;
@@ -132,6 +133,7 @@ namespace TowerTrouble
             Orbs = Content.Load<Texture2D>(@"this game\orbs");
             Enemy = Content.Load<Texture2D>(@"this game\spritesheet");
             grass = Content.Load<Texture2D>(@"this game\grass");
+            wood = Content.Load<Texture2D>(@"this game\wood");
             
             for (int i = 0; i < tileWidth; i++)
             {
@@ -146,12 +148,10 @@ namespace TowerTrouble
             EffectManager.Initialize(graphics, Content);
             EffectManager.LoadContent();
 
-            grid[0, 3] = new Tiles(new Sprite(new Vector2(0, 32), Tiles, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), "none", true, true);
-            grid[1,2] = new Tiles(new Sprite(new Vector2(0, 32), Tiles, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), "none", true, true);
-            grid[1, 4] = new Tiles(new Sprite(new Vector2(0, 32), Tiles, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), "none", true, true);
-            grid=CalculatePath(grid);
             
-            enemies.Add(new enemies(new Sprite(new Vector2(0, 0), Tiles, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)),0,0));
+            grid=CalculatePath(grid);
+
+            enemies.Add(new enemies(new Sprite(new Vector2(0, 0), Enemy, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), 0, 0));
             enemies[0].sprite.TintColor = Color.Gray;
             
         }
@@ -217,7 +217,11 @@ namespace TowerTrouble
 
             for (int i = 0; i < enemies.Count; i++)
             {
-                enemies[i].update(grid);
+                enemies[i].update(grid,Enemy);
+                if (enemies[i].Remove)
+                {
+                    enemies.Remove(enemies[i]);
+                }
             }
 
             for (int i = 0; i < enemies.Count; i++)
@@ -241,12 +245,14 @@ namespace TowerTrouble
                 }
             }
             new Sprite(new Vector2(0, 32), grass, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)).Draw(spriteBatch);
-            new Sprite(new Vector2(8 * 32, 7 * 32), grass, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)).Draw(spriteBatch); grid[8, 7].sprite.Draw(spriteBatch);
+            new Sprite(new Vector2(8 * 32, 7 * 32), grass, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)).Draw(spriteBatch);
+            new Sprite(new Vector2(540, 0), wood, new Rectangle(0, 0, 260, 480), new Vector2(0, 0)).Draw(spriteBatch); 
             
             for (int i = 0; i < enemies.Count; i++)
             {
                 enemies[i].sprite.Draw(spriteBatch);
             }
+            grid[8, 7].sprite.Draw(spriteBatch);
             spriteBatch.End();
             EffectManager.Draw();
             base.Draw(gameTime);
