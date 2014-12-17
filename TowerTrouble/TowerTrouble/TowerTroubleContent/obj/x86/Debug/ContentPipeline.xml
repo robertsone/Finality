@@ -676,6 +676,15 @@
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\wood.xnb</Output>
       <Time>2014-12-17T08:00:58.7612-05:00</Time>
     </Item>
+    <Item>
+      <Source>this game\SpriteFont1.spritefont</Source>
+      <Name>this game\SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\SpriteFont1.xnb</Output>
+      <Time>2014-12-17T08:11:32.6762-05:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

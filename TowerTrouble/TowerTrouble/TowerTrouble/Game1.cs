@@ -19,17 +19,19 @@ namespace TowerTrouble
 
         public Tiles[,] grid = new Tiles[17, 15];
         public List<enemies> enemies = new List<enemies>();
-
+        SpriteFont Font1;
         int tileWidth=17;
         int tileHeight=15;
         int tileSize=32;
         Texture2D Tiles;
         Texture2D Orbs;
         Texture2D wood;
+        Texture2D sprites;
         Texture2D Enemy, grass;
         bool Canclick=false;
         bool leftMouseClicked = false;
         Rectangle mouserect;
+        public int money;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -130,11 +132,13 @@ namespace TowerTrouble
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
             Tiles = Content.Load<Texture2D>(@"Textures\grid");
+            Font1 = Content.Load<SpriteFont>(@"this game\SpriteFont1");
             Orbs = Content.Load<Texture2D>(@"this game\orbs");
             Enemy = Content.Load<Texture2D>(@"this game\spritesheet");
             grass = Content.Load<Texture2D>(@"this game\grass");
             wood = Content.Load<Texture2D>(@"this game\wood");
-            
+            sprites = Content.Load<Texture2D>(@"this game\paths_and_money");
+            money = 100;
             for (int i = 0; i < tileWidth; i++)
             {
 
@@ -246,8 +250,9 @@ namespace TowerTrouble
             }
             new Sprite(new Vector2(0, 32), grass, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)).Draw(spriteBatch);
             new Sprite(new Vector2(8 * 32, 7 * 32), grass, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)).Draw(spriteBatch);
-            new Sprite(new Vector2(540, 0), wood, new Rectangle(0, 0, 260, 480), new Vector2(0, 0)).Draw(spriteBatch); 
-            
+            new Sprite(new Vector2(540, 0), wood, new Rectangle(0, 0, 260, 480), new Vector2(0, 0)).Draw(spriteBatch); //wood
+            new Sprite(new Vector2(545, 10), sprites, new Rectangle(73, 600, 50, 60), new Vector2(0, 0)).Draw(spriteBatch); //money
+            spriteBatch.DrawString(Font1, Convert.ToString(money), new Vector2(600, 40), Color.Gold);
             for (int i = 0; i < enemies.Count; i++)
             {
                 enemies[i].sprite.Draw(spriteBatch);
