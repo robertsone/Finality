@@ -33,6 +33,7 @@ namespace TowerTrouble
         Rectangle mouserect;
         public int money;
         public int lives;
+        public int delay=0;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -198,7 +199,12 @@ namespace TowerTrouble
 
         protected override void Update(GameTime gameTime)
         {
-
+            delay++;
+            if (delay >= 100)
+            {
+                enemies.Add(new enemies(new Sprite(new Vector2(0, 0), Enemy, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), 0, 0));
+                delay = 0;
+            }
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
