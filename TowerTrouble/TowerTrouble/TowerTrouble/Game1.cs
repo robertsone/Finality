@@ -24,9 +24,12 @@ namespace TowerTrouble
         int tileHeight=15;
         int tileSize=32;
         Texture2D Tiles;
+        Texture2D Gemcraft;
         Texture2D Orbs;
         Texture2D wood;
         Texture2D sprites;
+        Texture2D grass2;
+        Texture2D brick;
         Texture2D Enemy, grass;
         bool Canclick=false;
         bool leftMouseClicked = false;
@@ -34,6 +37,12 @@ namespace TowerTrouble
         public int money;
         public int lives;
         public int delay=0;
+        Sprite machineGun;
+        Sprite machineGun2;
+        string isplacing;
+        int machineGunPrice = 10;
+        int machineGun2Price = 50;
+        KeyboardState keyState;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -138,10 +147,14 @@ namespace TowerTrouble
             Orbs = Content.Load<Texture2D>(@"this game\orbs");
             Enemy = Content.Load<Texture2D>(@"this game\spritesheet");
             grass = Content.Load<Texture2D>(@"this game\grass");
+            grass2 = Content.Load<Texture2D>(@"this game\grass2");
             wood = Content.Load<Texture2D>(@"this game\wood");
             sprites = Content.Load<Texture2D>(@"this game\paths_and_money");
+            Gemcraft = Content.Load<Texture2D>(@"this game\Gemcraft");
+            brick = Content.Load<Texture2D>(@"this game\sprite_bricks_tutorial_1");
             money = 100;
             lives = 10;
+            isplacing="none";
             for (int i = 0; i < tileWidth; i++)
             {
 
@@ -155,15 +168,15 @@ namespace TowerTrouble
             EffectManager.Initialize(graphics, Content);
             EffectManager.LoadContent();
 
-            
-            grid=CalculatePath(grid);
-
+            machineGun = new Sprite(new Vector2(545, 100), sprites, new Rectangle(90, 287, 32, 32), new Vector2(0, 0));
+            machineGun2 = new Sprite(new Vector2(545, 200), sprites, new Rectangle(156, 287, 32, 32), new Vector2(0, 0));
+            grid = CalculatePath(grid);
             enemies.Add(new enemies(new Sprite(new Vector2(0, 0), Enemy, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), 0, 0));
             enemies[0].sprite.TintColor = Color.Gray;
             
         }
 
-        public Tiles[,] placedTower(Tiles[,] grids, Rectangle mouserect)
+        public Tiles[,] placedTower(Tiles[,] grids, Rectangle mouserect,string Tower)
         {
             Tiles[,] yellow = new Tiles[tileWidth,tileHeight];
 
@@ -175,7 +188,14 @@ namespace TowerTrouble
 
                     if (grids[i, j].sprite.IsBoxColliding(mouserect))
                     {
-                        grids[i, j] = new Tiles(new Sprite(new Vector2(0, 32), Tiles, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), "none", true, true);
+                        if (Tower == "MachineGun")
+                        {
+                            grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), sprites, new Rectangle(90, 287, 32, 32), new Vector2(0, 0)), Tower, true, true);
+                        }
+                        if (Tower == "MachineGun2")
+                        {
+                            grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), sprites, new Rectangle(156, 287, 32, 32), new Vector2(0, 0)), Tower, true, true);
+                        }
                     }
                 }
             }
@@ -220,13 +240,37 @@ namespace TowerTrouble
             }
             mouserect = new Rectangle(ms.X, ms.Y, 1, 1);
             IsMouseVisible = true;
+            if (isplacing != "none" && leftMouseClicked)
+            {
+                if (isplacing == "MachineGun")
+                {
+                    
+                        grid = placedTower(grid, mouserect, "MachineGun");
+                        isplacing = "none";
+                        money -= machineGunPrice;
+                    
+                }
+                if (isplacing == "MachineGun2")
+                {
+                    grid = placedTower(grid, mouserect, "MachineGun2");
+                    isplacing = "none";
+                    money -= machineGun2Price;
+                }
+            }
 
             if (leftMouseClicked)
             {
-                grid = placedTower(grid, mouserect);  
+                if (machineGun.IsBoxColliding(mouserect) && money >= machineGunPrice)
+                {
+                    isplacing = "MachineGun";
+                }
+                if (machineGun2.IsBoxColliding(mouserect) && money >= machineGun2Price)
+                {
+                    isplacing = "MachineGun2";
+                }
             }
 
-
+            
             for (int i = 0; i < enemies.Count; i++)
             {
                 enemies[i].update(grid,Enemy);
@@ -253,21 +297,39 @@ namespace TowerTrouble
             {
                 for (int j = 0; j < tileHeight; j++)
                 {
-                    grid[i,j].sprite.Draw(spriteBatch);
+                    if (isplacing != "none" && grid[i,j].tower=="none")
+                    {
+                        spriteBatch.Draw(grass2, new Rectangle(i * 32, j * 32, 32, 32), Color.White);
+                    }
+                    else
+                    {
+                        spriteBatch.Draw(grass, new Rectangle(i * 32, j * 32, 32, 32), Color.White);
+                        grid[i, j].sprite.Draw(spriteBatch);
+                    }
+                    
                 }
             }
-            new Sprite(new Vector2(0, 32), grass, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)).Draw(spriteBatch);
             new Sprite(new Vector2(8 * 32, 7 * 32), grass, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)).Draw(spriteBatch);
             new Sprite(new Vector2(540, 0), wood, new Rectangle(0, 0, 260, 480), new Vector2(0, 0)).Draw(spriteBatch); //wood
             new Sprite(new Vector2(545, 5), sprites, new Rectangle(73, 600, 50, 60), new Vector2(0, 0)).Draw(spriteBatch); //money
             new Sprite(new Vector2(700, 30), sprites, new Rectangle(133, 152, 50, 20), new Vector2(0, 0)).Draw(spriteBatch); //lives
             spriteBatch.DrawString(Font1, Convert.ToString(money), new Vector2(600, 30), Color.Gold);//cash
+            machineGun.Draw(spriteBatch);//machinegun
+            machineGun2.Draw(spriteBatch);//dualgun
             spriteBatch.DrawString(Font1, Convert.ToString(lives), new Vector2(755, 30), Color.Gold);//lives
             for (int i = 0; i < enemies.Count; i++)
             {
                 enemies[i].sprite.Draw(spriteBatch);
             }
             grid[8, 7].sprite.Draw(spriteBatch);
+            if (isplacing == "MachineGun")
+            {
+                new Sprite(new Vector2(mouserect.X-10,mouserect.Y-10), sprites, new Rectangle(90, 287, 32, 32), new Vector2(0, 0)).Draw(spriteBatch);
+            }
+            if (isplacing == "MachineGun2")
+            {
+                new Sprite(new Vector2(mouserect.X - 20, mouserect.Y - 20), sprites, new Rectangle(156, 287, 32, 32), new Vector2(0, 0)).Draw(spriteBatch);
+            }
             spriteBatch.End();
             EffectManager.Draw();
             base.Draw(gameTime);
