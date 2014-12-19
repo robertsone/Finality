@@ -1,7 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.GamerServices;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
 
 namespace TowerTrouble
 {
@@ -18,7 +24,11 @@ namespace TowerTrouble
         public int thisY = 0;
         public bool render;
         public bool fail;
-        public Tiles(Sprite sprite,String tower,bool collide,bool render)
+        public int range;
+        public int shottimer;
+        public bool isfireing;
+        public Vector2 at;
+        public Tiles(Sprite sprite,String tower,bool collide,bool render,int range)
         {
             this.collideablie = collide;
             this.tower = tower;
@@ -27,6 +37,10 @@ namespace TowerTrouble
             this.nextY = 0;
             this.render = render;
             this.fail = false;
+            this.range = range;
+            this.shottimer = 0;
+            this.isfireing = false;
+            this.at=new Vector2(0,0);
         }
         public void changeto(int x, int y)
         {
