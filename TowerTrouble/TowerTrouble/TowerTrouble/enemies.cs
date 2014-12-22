@@ -23,7 +23,9 @@ namespace TowerTrouble
         public int frame;
         public String der;
         public bool Remove;
-        public enemies(Sprite sprite,int tilex,int tiley)
+        public int health;
+        public bool dead;
+        public enemies(Sprite sprite,int tilex,int tiley,int health)
         {
             this.tilex = tilex;
             this.tiley = tiley;
@@ -33,6 +35,8 @@ namespace TowerTrouble
             this.frame = 0;
             this.der = "up";
             this.Remove = false;
+            this.health = health;
+            this.dead = false;
         }
         public void changeImage(String der, Texture2D enemies)
         {

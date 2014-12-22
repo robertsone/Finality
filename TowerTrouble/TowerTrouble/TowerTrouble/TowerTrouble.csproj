@@ -110,6 +110,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bullet.cs" />
     <Compile Include="EffectManager.cs" />
     <Compile Include="enemies.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

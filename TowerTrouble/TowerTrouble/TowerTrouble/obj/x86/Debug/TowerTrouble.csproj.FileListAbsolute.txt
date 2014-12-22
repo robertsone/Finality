@@ -87,3 +87,4 @@ C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble
 C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\red.xnb
 C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\range.xnb
 C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\lazor.xnb
+C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\bulley.xnb

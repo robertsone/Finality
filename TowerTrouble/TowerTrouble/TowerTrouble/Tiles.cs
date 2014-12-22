@@ -26,9 +26,11 @@ namespace TowerTrouble
         public bool fail;
         public int range;
         public int shottimer;
+        public int reset;
+        public int damage;
         public bool isfireing;
         public Vector2 at;
-        public Tiles(Sprite sprite,String tower,bool collide,bool render,int range)
+        public Tiles(Sprite sprite,String tower,bool collide,bool render,int range,int reset,int damage)
         {
             this.collideablie = collide;
             this.tower = tower;
@@ -41,6 +43,8 @@ namespace TowerTrouble
             this.shottimer = 0;
             this.isfireing = false;
             this.at=new Vector2(0,0);
+            this.reset = reset;
+            this.damage = damage;
         }
         public void changeto(int x, int y)
         {
