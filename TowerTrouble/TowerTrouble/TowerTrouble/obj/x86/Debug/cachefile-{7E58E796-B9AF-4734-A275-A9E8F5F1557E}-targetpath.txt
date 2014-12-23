@@ -81,3 +81,4 @@ Content\this game\range.xnb
 Content\this game\lazor.xnb
 Content\this game\bulley.xnb
 Content\this game\SpriteFont1.xnb
+Content\this game\banana-clip-art-2.xnb

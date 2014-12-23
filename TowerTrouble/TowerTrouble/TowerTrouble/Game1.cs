@@ -31,6 +31,7 @@ namespace TowerTrouble
         Texture2D sprites;
         Texture2D grass2;
         Texture2D range;
+        Texture2D bannana;
         Texture2D brick;
         Texture2D lazor;
         Texture2D bullet;
@@ -42,10 +43,11 @@ namespace TowerTrouble
         Rectangle mouserect;
         public int money;
         public int lives;
-        public int delay=-200;
+        public int delay=-400;
         Sprite machineGun;
         Sprite machineGun2;
         Sprite wall;
+        Sprite bana;
         string isplacing;
         int machineGunPrice = 10;
         int machineGun2Price = 50;
@@ -56,6 +58,7 @@ namespace TowerTrouble
         List<bullet> bullets=new List<bullet>();
         int gun1cost = 10;
         int gun2cost = 50;
+        int banacost = 1000;
         int wallcost = 1;
         public Game1()
         {
@@ -170,8 +173,9 @@ namespace TowerTrouble
             red = Content.Load<Texture2D>(@"this game\red");
             brick = Content.Load<Texture2D>(@"this game\sprite_bricks_tutorial_1");
             lazor = Content.Load<Texture2D>(@"this game\lazor");
+            bannana = Content.Load<Texture2D>(@"this game\banana-clip-art-2");
             money = 200;
-            lives = 10;
+            lives = 20;
             isplacing="none";
             for (int i = 0; i < tileWidth; i++)
             {
@@ -186,6 +190,7 @@ namespace TowerTrouble
             EffectManager.Initialize(graphics, Content);
             EffectManager.LoadContent();
 
+            bana = new Sprite(new Vector2(545, 250), bannana, new Rectangle(0, 0, 32, 32), new Vector2(0, 0));
             wall = new Sprite(new Vector2(545, 200), brick, new Rectangle(0, 0, 32, 32), new Vector2(0, 0));
             machineGun = new Sprite(new Vector2(545, 100), sprites, new Rectangle(90, 287, 32, 32), new Vector2(0, 0));
             machineGun2 = new Sprite(new Vector2(545, 150), sprites, new Rectangle(156, 287, 32, 32), new Vector2(0, 0));
@@ -236,7 +241,11 @@ namespace TowerTrouble
                         }
                         if (Tower == "wall")
                         {
-                            grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), brick, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), Tower, true, true, 300, 6, 10);
+                            grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), brick, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), Tower, true, true, 0, 6, 10);
+                        }
+                        if (Tower == "bana")
+                        {
+                            grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), bannana, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), Tower, true, true, 650, 180, 500);
                         }
                     }
                 }
@@ -265,12 +274,12 @@ namespace TowerTrouble
             {
                 delay++;
                 healthtimer++;
-                if (healthtimer >= 10)
+                if (healthtimer >= 18)
                 {
                     healthtimer = 0;
                     health++;
                 }
-                if (delay >= 100)
+                if (delay >= 50)
                 {
                     enemies.Add(new enemies(new Sprite(new Vector2(0, 0), Enemy, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), 0, 0,health));
                     delay = rand.Next(150);
@@ -315,12 +324,28 @@ namespace TowerTrouble
                         money -= gun1cost;
                         gun1cost += gun1cost / 10;
 
+                    } if (isplacing == "bana")
+                    {
+
+                        grid = placedTower(grid, mouserect, "bana");
+                        isplacing = "none";
+                        money -= banacost;
+                        banacost += banacost / 10;
+
                     }
                     if (isplacing == "wall")
                     {
 
                         grid = placedTower(grid, mouserect, "wall");
-                        isplacing = "none";
+                        KeyboardState keyState = Keyboard.GetState();
+                        if (keyState.IsKeyDown(Keys.LeftShift)&&money>=wallcost)
+                        {
+
+                        }
+                        else
+                        {
+                            isplacing = "none";
+                        }
                         money -= wallcost;
                         wallcost += wallcost / 10;
 
@@ -328,9 +353,9 @@ namespace TowerTrouble
                     if (isplacing == "MachineGun2")
                     {
                         grid = placedTower(grid, mouserect, "MachineGun2");
-                        isplacing = "none";
                         money -= gun2cost;
-                        gun2cost += gun1cost / 10;
+                        gun2cost += gun2cost / 10;
+                        isplacing = "none";
 
                     }
                 }
@@ -348,6 +373,10 @@ namespace TowerTrouble
                     if (wall.IsBoxColliding(mouserect) && money >= wallcost)
                     {
                         isplacing = "wall";
+                    }
+                    if (bana.IsBoxColliding(mouserect) && money >= banacost)
+                    {
+                        isplacing = "bana";
                     }
                 }
 
@@ -414,15 +443,27 @@ namespace TowerTrouble
                     bullets[i].bulletsprite.Update(gameTime);
                     for (int j = 0; j < enemies.Count; j++)
                     {
+                        if (bullets[i].damage == 500)
+                        {
+                            EffectManager.Effect("ShieldsUp").Trigger(bullets[i].bulletsprite.Center); EffectManager.Effect("PulseTracker").Trigger(bullets[i].bulletsprite.Center); EffectManager.Effect("PulseTracker").Trigger(bullets[i].bulletsprite.Center); EffectManager.Effect("PulseTracker").Trigger(bullets[i].bulletsprite.Center);
+                        }
                         if (bullets[i].bulletsprite.IsBoxColliding(enemies[j].sprite.BoundingBoxRect))
                         {
-                            bullets[i].dead = true;
-                            enemies[j].health -= 10;
+                            if (bullets[i].damage != 500)
+                            {
+                                bullets[i].dead = true;
+                            }
+                            enemies[j].health -= bullets[i].damage;
                             if (enemies[j].health <= 0)
                             {
 
                                 enemies[j].dead = true;
+                                if (bullets[i].damage == 500)
+                                {
+                                    EffectManager.Effect("BasicExplosion").Trigger(bullets[i].bulletsprite.Center);
+                                }
                             }
+                            
                         }
                     }
                 }
@@ -481,9 +522,11 @@ namespace TowerTrouble
             spriteBatch.DrawString(Font1, Convert.ToString(gun1cost), new Vector2(600, 100), Color.Gold);//1cost
             spriteBatch.DrawString(Font1, Convert.ToString(gun2cost), new Vector2(600, 150), Color.Gold);//2cost
             spriteBatch.DrawString(Font1, Convert.ToString(wallcost), new Vector2(600, 200), Color.Gold);//wallcost
+            spriteBatch.DrawString(Font1, Convert.ToString(banacost), new Vector2(600, 250), Color.Gold);//bana
             machineGun.Draw(spriteBatch);//machinegun
             machineGun2.Draw(spriteBatch);//dualgun
             wall.Draw(spriteBatch);//wall
+            bana.Draw(spriteBatch);
             spriteBatch.DrawString(Font1, Convert.ToString(lives), new Vector2(755, 30), Color.Gold);//lives
             spriteBatch.DrawString(Font1, "Health of each enemy:  "+Convert.ToString(health), new Vector2(550, 70), Color.Gold);//health
 
@@ -516,6 +559,10 @@ namespace TowerTrouble
             if (isplacing == "MachineGun2")
             {
                 new Sprite(new Vector2(mouserect.X - 20, mouserect.Y - 20), sprites, new Rectangle(156, 287, 32, 32), new Vector2(0, 0)).Draw(spriteBatch);
+            }
+            if (isplacing == "bana")
+            {
+                new Sprite(new Vector2(mouserect.X - 20, mouserect.Y - 20), bannana, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)).Draw(spriteBatch);
             }
 
             spriteBatch.End();
