@@ -80,5 +80,7 @@ Content\this game\red.xnb
 Content\this game\range.xnb
 Content\this game\lazor.xnb
 Content\this game\bulley.xnb
-Content\this game\SpriteFont1.xnb
 Content\this game\banana-clip-art-2.xnb
+Content\this game\SpriteFont1.xnb
+Content\this game\dr-bob-jpg.xnb
+Content\this game\woop.xnb

@@ -34,7 +34,9 @@ namespace TowerTrouble
         Texture2D bannana;
         Texture2D brick;
         Texture2D lazor;
+        Texture2D bob;
         Texture2D bullet;
+        Texture2D woop;
         Texture2D red;
         Vector2 isHovering;
         Texture2D Enemy, grass;
@@ -48,6 +50,8 @@ namespace TowerTrouble
         Sprite machineGun2;
         Sprite wall;
         Sprite bana;
+        Sprite bomb;
+        Sprite bobsprite;
         string isplacing;
         int machineGunPrice = 10;
         int machineGun2Price = 50;
@@ -60,6 +64,9 @@ namespace TowerTrouble
         int gun2cost = 50;
         int banacost = 1000;
         int wallcost = 1;
+        int cokecost = 700;
+        int numberthing;
+        int bombcost = 700;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -170,13 +177,16 @@ namespace TowerTrouble
             wood = Content.Load<Texture2D>(@"this game\wood");
             sprites = Content.Load<Texture2D>(@"this game\paths_and_money");
             Gemcraft = Content.Load<Texture2D>(@"this game\Gemcraft");
+            woop = Content.Load<Texture2D>(@"this game\woop");
             red = Content.Load<Texture2D>(@"this game\red");
             brick = Content.Load<Texture2D>(@"this game\sprite_bricks_tutorial_1");
             lazor = Content.Load<Texture2D>(@"this game\lazor");
             bannana = Content.Load<Texture2D>(@"this game\banana-clip-art-2");
+            bob = Content.Load<Texture2D>(@"this game\dr-bob-jpg");
             money = 200;
             lives = 20;
             isplacing="none";
+            numberthing = 18;
             for (int i = 0; i < tileWidth; i++)
             {
 
@@ -189,8 +199,9 @@ namespace TowerTrouble
 
             EffectManager.Initialize(graphics, Content);
             EffectManager.LoadContent();
-
+            bomb = new Sprite(new Vector2(545, 350), woop, new Rectangle(0, 0, 32, 32), new Vector2(0, 0));
             bana = new Sprite(new Vector2(545, 250), bannana, new Rectangle(0, 0, 32, 32), new Vector2(0, 0));
+            bobsprite = new Sprite(new Vector2(545, 300), bob, new Rectangle(0, 0, 32, 32), new Vector2(0, 0));
             wall = new Sprite(new Vector2(545, 200), brick, new Rectangle(0, 0, 32, 32), new Vector2(0, 0));
             machineGun = new Sprite(new Vector2(545, 100), sprites, new Rectangle(90, 287, 32, 32), new Vector2(0, 0));
             machineGun2 = new Sprite(new Vector2(545, 150), sprites, new Rectangle(156, 287, 32, 32), new Vector2(0, 0));
@@ -231,20 +242,34 @@ namespace TowerTrouble
 
                     if (grids[i, j].sprite.IsBoxColliding(mouserect))
                     {
+                        if (Tower == "bomb")
+                        {
+                            EffectManager.Effect("StarTrail").Trigger(grids[i, j].sprite.Center);
+                            grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), woop, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), Tower, false, true, 200, 1, 10);
+                        }
+                        if (Tower == "coke")
+                        {
+                            EffectManager.Effect("StarTrail").Trigger(grids[i, j].sprite.Center);
+                            grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), bob, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), Tower, true, true, 100, 1, 10);
+                        }
                         if (Tower == "MachineGun")
                         {
+                            EffectManager.Effect("StarTrail").Trigger(grids[i, j].sprite.Center);
                             grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), sprites, new Rectangle(90, 287, 32, 32), new Vector2(0, 0)), Tower, true, true, 150, 20, 18);
                         }
                         if (Tower == "MachineGun2")
                         {
+                            EffectManager.Effect("StarTrail").Trigger(grids[i, j].sprite.Center);
                             grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), sprites, new Rectangle(156, 287, 32, 32), new Vector2(0, 0)), Tower, true, true, 300, 6, 10);
                         }
                         if (Tower == "wall")
                         {
+                            EffectManager.Effect("StarTrail").Trigger(grids[i, j].sprite.Center);
                             grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), brick, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), Tower, true, true, 0, 6, 10);
                         }
                         if (Tower == "bana")
                         {
+                            EffectManager.Effect("StarTrail").Trigger(grids[i, j].sprite.Center);
                             grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), bannana, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), Tower, true, true, 650, 180, 500);
                         }
                     }
@@ -274,10 +299,18 @@ namespace TowerTrouble
             {
                 delay++;
                 healthtimer++;
-                if (healthtimer >= 18)
+                if (healthtimer >= numberthing)
                 {
                     healthtimer = 0;
                     health++;
+                    if (health >= 300)
+                    {
+
+                        if (rand.Next(1, 20) == 1)
+                        {
+                            numberthing -= 1;
+                        }
+                    }
                 }
                 if (delay >= 50)
                 {
@@ -316,6 +349,15 @@ namespace TowerTrouble
 
                 if (isplacing != "none" && leftMouseClicked)
                 {
+                    if (isplacing == "bomb")
+                    {
+
+                        grid = placedTower(grid, mouserect, "bomb");
+                        isplacing = "none";
+                        money -= bombcost;
+                        bombcost += bombcost / 10;
+
+                    }
                     if (isplacing == "MachineGun")
                     {
 
@@ -358,13 +400,29 @@ namespace TowerTrouble
                         isplacing = "none";
 
                     }
+                    if (isplacing == "coke")
+                    {
+                        grid = placedTower(grid, mouserect, "coke");
+                        money -= cokecost;
+                        cokecost += cokecost / 10;
+                        isplacing = "none";
+
+                    }
                 }
 
                 if (leftMouseClicked)
                 {
+                    if (bomb.IsBoxColliding(mouserect) && money >= bombcost)
+                    {
+                        isplacing = "bomb";
+                    }
                     if (machineGun.IsBoxColliding(mouserect) && money >= gun1cost)
                     {
                         isplacing = "MachineGun";
+                    }
+                    if (bobsprite.IsBoxColliding(mouserect) && money >= cokecost)
+                    {
+                        isplacing = "coke";
                     }
                     if (machineGun2.IsBoxColliding(mouserect) && money >= gun2cost)
                     {
@@ -387,6 +445,7 @@ namespace TowerTrouble
                     if (enemies[i].Remove)
                     {
                         lives -= 1;
+                        EffectManager.Effect("BasicExplosionWithHalo").Trigger(enemies[i].sprite.Center);
                         if (lives <= 0)
                         {
                             done = true;
@@ -405,7 +464,7 @@ namespace TowerTrouble
 
                     for (int j = 0; j < tileHeight; j++)
                     {
-                        if (grid[i, j].tower != "none" && grid[i, j].tower != "wall" && grid[i, j].tower != "orb")
+                        if (grid[i, j].tower != "none" && grid[i, j].tower != "wall" && grid[i, j].tower != "orb" && grid[i, j].tower != "bomb")
                         {
                             if (grid[i, j].shottimer <= 0)
                             {
@@ -431,6 +490,26 @@ namespace TowerTrouble
                                 grid[i, j].shottimer--;
                             }
 
+                        }
+                        if (grid[i, j].tower=="bomb"){
+                            for (int t = 0; t < enemies.Count(); t++)
+                            {
+                                if (enemies[t].sprite.IsBoxColliding(grid[i, j].sprite.BoundingBoxRect))
+                                {
+                                    for (int w = 0; w < enemies.Count(); w++)
+                                    {
+                                        if (enemies[i].sprite.IsCircleColliding(grid[i, j].sprite.Center, 100f))
+                                        {
+                                            enemies.Remove(enemies[t]);
+                                        }
+                                    }
+
+                                    EffectManager.Effect("BasicExplosion").Trigger(grid[i, j].sprite.Center);
+                                    grid[i, j] = new Tiles(new Sprite(new Vector2(i * tileSize, j * tileSize), grass, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), "none", false, false, 0, 0, 0);
+                                    grid = CalculatePath(grid);
+                                }
+                            }
+                            
                         }
                     }
                 }
@@ -518,15 +597,19 @@ namespace TowerTrouble
             new Sprite(new Vector2(540, 0), wood, new Rectangle(0, 0, 260, 480), new Vector2(0, 0)).Draw(spriteBatch); //wood
             new Sprite(new Vector2(545, 5), sprites, new Rectangle(73, 600, 50, 60), new Vector2(0, 0)).Draw(spriteBatch); //money
             new Sprite(new Vector2(700, 30), sprites, new Rectangle(133, 152, 50, 20), new Vector2(0, 0)).Draw(spriteBatch); //lives
+            spriteBatch.DrawString(Font1, Convert.ToString(bombcost), new Vector2(600, 350), Color.Gold);//cash
             spriteBatch.DrawString(Font1, Convert.ToString(money), new Vector2(600, 30), Color.Gold);//cash
             spriteBatch.DrawString(Font1, Convert.ToString(gun1cost), new Vector2(600, 100), Color.Gold);//1cost
             spriteBatch.DrawString(Font1, Convert.ToString(gun2cost), new Vector2(600, 150), Color.Gold);//2cost
             spriteBatch.DrawString(Font1, Convert.ToString(wallcost), new Vector2(600, 200), Color.Gold);//wallcost
             spriteBatch.DrawString(Font1, Convert.ToString(banacost), new Vector2(600, 250), Color.Gold);//bana
+            spriteBatch.DrawString(Font1, Convert.ToString(cokecost), new Vector2(600, 300), Color.Gold);//coke
             machineGun.Draw(spriteBatch);//machinegun
             machineGun2.Draw(spriteBatch);//dualgun
             wall.Draw(spriteBatch);//wall
             bana.Draw(spriteBatch);
+            bomb.Draw(spriteBatch);
+            bobsprite.Draw(spriteBatch);
             spriteBatch.DrawString(Font1, Convert.ToString(lives), new Vector2(755, 30), Color.Gold);//lives
             spriteBatch.DrawString(Font1, "Health of each enemy:  "+Convert.ToString(health), new Vector2(550, 70), Color.Gold);//health
 
@@ -548,9 +631,17 @@ namespace TowerTrouble
             {
                 bullets[i].bulletsprite.Draw(spriteBatch);
             }
+            if (isplacing == "coke")
+            {
+                new Sprite(new Vector2(mouserect.X - 10, mouserect.Y - 10), bob, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)).Draw(spriteBatch);
+            }
+            if (isplacing == "bomb")
+            {
+                new Sprite(new Vector2(mouserect.X - 10, mouserect.Y - 10), woop, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)).Draw(spriteBatch);
+            }
             if (isplacing == "wall")
             {
-                new Sprite(new Vector2(mouserect.X - 10, mouserect.Y - 10), brick, new Rectangle(0,0,32,32), new Vector2(0, 0)).Draw(spriteBatch);
+                new Sprite(new Vector2(mouserect.X - 10, mouserect.Y - 10), brick, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)).Draw(spriteBatch);
             }
             if (isplacing == "MachineGun")
             {
