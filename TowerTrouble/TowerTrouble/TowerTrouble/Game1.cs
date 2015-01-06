@@ -24,6 +24,12 @@ namespace TowerTrouble
         int tileWidth=17;
         int tileHeight=15;
         int tileSize=32;
+        SoundEffect ChaChing;
+        SoundEffect Explode;
+        SoundEffect Death;
+        SoundEffect Fart;
+        Texture2D Nuke;
+        bool titlescreen = true;
         Texture2D Tiles;
         Texture2D Gemcraft;
         Texture2D Orbs;
@@ -40,6 +46,7 @@ namespace TowerTrouble
         Texture2D red;
         Vector2 isHovering;
         Texture2D Enemy, grass;
+        Texture2D titlescreenimg;
         bool Canclick=false;
         bool leftMouseClicked = false;
         Rectangle mouserect;
@@ -49,6 +56,7 @@ namespace TowerTrouble
         Sprite machineGun;
         Sprite machineGun2;
         Sprite wall;
+        Sprite NukeSprite;
         Sprite bana;
         Sprite bomb;
         Sprite bobsprite;
@@ -61,12 +69,14 @@ namespace TowerTrouble
         KeyboardState keyState;
         List<bullet> bullets=new List<bullet>();
         int gun1cost = 10;
+        int nukes = 2;
         int gun2cost = 50;
         int banacost = 1000;
-        int wallcost = 1;
+        int wallcost = 3;
         int cokecost = 700;
+        Boolean nuked = false;
         int numberthing;
-        int bombcost = 700;
+        int bombcost = 7;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -166,6 +176,7 @@ namespace TowerTrouble
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            Nuke = Content.Load<Texture2D>(@"this game\BOMB");
             range = Content.Load<Texture2D>(@"this game\range");
             bullet = Content.Load<Texture2D>(@"this game\bulley");
             Tiles = Content.Load<Texture2D>(@"Textures\grid");
@@ -183,6 +194,12 @@ namespace TowerTrouble
             lazor = Content.Load<Texture2D>(@"this game\lazor");
             bannana = Content.Load<Texture2D>(@"this game\banana-clip-art-2");
             bob = Content.Load<Texture2D>(@"this game\dr-bob-jpg");
+            titlescreenimg = Content.Load<Texture2D>(@"this Game\Unicorn_Castle terio yeet123 holdupyeetteykhami (6)");
+            Fart = Content.Load<SoundEffect>(@"this game\Small_Fart_Sound_Effect_For_Free");
+            Explode = Content.Load<SoundEffect>(@"this game\sound_effects_explosion");
+            Death = Content.Load<SoundEffect>(@"this game\Sound_Effects_-_Death_Screams_1_ (1)");
+            ChaChing = Content.Load<SoundEffect>(@"this game\Cash_register_sound_effect");
+
             money = 200;
             lives = 20;
             isplacing="none";
@@ -244,7 +261,11 @@ namespace TowerTrouble
                     {
                         if (Tower == "bomb")
                         {
-                            EffectManager.Effect("StarTrail").Trigger(grids[i, j].sprite.Center);
+                            Fart.Play();
+                            EffectManager.Effect("PulseTracker").Trigger(grids[i, j].sprite.Center); EffectManager.Effect("PulseTracker").Trigger(grids[i, j].sprite.Center);
+                            EffectManager.Effect("PulseTracker").Trigger(grids[i, j].sprite.Center); EffectManager.Effect("PulseTracker").Trigger(grids[i, j].sprite.Center);
+                            EffectManager.Effect("PulseTracker").Trigger(grids[i, j].sprite.Center); EffectManager.Effect("PulseTracker").Trigger(grids[i, j].sprite.Center);
+                            
                             grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), woop, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), Tower, false, true, 200, 1, 10);
                         }
                         if (Tower == "coke")
@@ -295,7 +316,15 @@ namespace TowerTrouble
 
         protected override void Update(GameTime gameTime)
         {
-            if (!done)
+            if (titlescreen)
+            {
+                MouseState ms = Mouse.GetState();
+                if (ms.LeftButton == ButtonState.Pressed)
+                {
+                    titlescreen = false;
+                }
+            }
+            if (!done && !titlescreen)
             {
                 delay++;
                 healthtimer++;
@@ -309,6 +338,8 @@ namespace TowerTrouble
                         if (rand.Next(1, 20) == 1)
                         {
                             numberthing -= 1;
+                            if (numberthing < 1)
+                                numberthing = 2;
                         }
                     }
                 }
@@ -352,7 +383,7 @@ namespace TowerTrouble
                     if (isplacing == "bomb")
                     {
 
-                        grid = placedTower(grid, mouserect, "bomb");
+                        grid = placedTower(grid, mouserect, "bomb"); ChaChing.Play();
                         isplacing = "none";
                         money -= bombcost;
                         bombcost += bombcost / 10;
@@ -361,7 +392,7 @@ namespace TowerTrouble
                     if (isplacing == "MachineGun")
                     {
 
-                        grid = placedTower(grid, mouserect, "MachineGun");
+                        grid = placedTower(grid, mouserect, "MachineGun"); ChaChing.Play();
                         isplacing = "none";
                         money -= gun1cost;
                         gun1cost += gun1cost / 10;
@@ -369,7 +400,7 @@ namespace TowerTrouble
                     } if (isplacing == "bana")
                     {
 
-                        grid = placedTower(grid, mouserect, "bana");
+                        grid = placedTower(grid, mouserect, "bana"); ChaChing.Play();
                         isplacing = "none";
                         money -= banacost;
                         banacost += banacost / 10;
@@ -378,7 +409,7 @@ namespace TowerTrouble
                     if (isplacing == "wall")
                     {
 
-                        grid = placedTower(grid, mouserect, "wall");
+                        grid = placedTower(grid, mouserect, "wall"); ChaChing.Play();
                         KeyboardState keyState = Keyboard.GetState();
                         if (keyState.IsKeyDown(Keys.LeftShift)&&money>=wallcost)
                         {
@@ -394,6 +425,7 @@ namespace TowerTrouble
                     }
                     if (isplacing == "MachineGun2")
                     {
+                        ChaChing.Play();
                         grid = placedTower(grid, mouserect, "MachineGun2");
                         money -= gun2cost;
                         gun2cost += gun2cost / 10;
@@ -402,7 +434,7 @@ namespace TowerTrouble
                     }
                     if (isplacing == "coke")
                     {
-                        grid = placedTower(grid, mouserect, "coke");
+                        grid = placedTower(grid, mouserect, "coke"); ChaChing.Play();
                         money -= cokecost;
                         cokecost += cokecost / 10;
                         isplacing = "none";
@@ -436,9 +468,28 @@ namespace TowerTrouble
                     {
                         isplacing = "bana";
                     }
+                    if (new Sprite(new Vector2(mouserect.X, mouserect.Y), Nuke, new Rectangle(0, 0, 2, 2), new Vector2(0, 0)).IsBoxColliding(new Rectangle (550,400,32,32))&& nukes>0)
+                    {
+                        nuked = true;
+                    }
+
                 }
 
-
+                if (nuked)
+                {
+                    nukes -= 1;
+                    nuked = false;
+                    for (int i = 0; i < 200; i++)
+                    {
+                        int x = rand.Next(1, 900);
+                        int y = rand.Next(1, 700);
+                        EffectManager.Effect("BasicExplosionWithHalo").Trigger(new Vector2(x,y));
+                    }
+                    for (int i = 0; i < enemies.Count; i++)
+                    {
+                        enemies[i].dead = true;
+                    }
+                }
                 for (int i = 0; i < enemies.Count; i++)
                 {
                     enemies[i].update(grid, Enemy);
@@ -446,6 +497,7 @@ namespace TowerTrouble
                     {
                         lives -= 1;
                         EffectManager.Effect("BasicExplosionWithHalo").Trigger(enemies[i].sprite.Center);
+                        Explode.Play();
                         if (lives <= 0)
                         {
                             done = true;
@@ -557,7 +609,7 @@ namespace TowerTrouble
                 {
                     if (enemies[j].dead == true)
                     {
-
+                        Death.Play();
                         EffectManager.Effect("Ship Cannon Fire").Trigger(enemies[j].sprite.Center); EffectManager.Effect("Ship Cannon Fire").Trigger(enemies[j].sprite.Center);
                         enemies.Remove(enemies[j]);
                         money += (health / 100);
@@ -597,7 +649,9 @@ namespace TowerTrouble
             new Sprite(new Vector2(540, 0), wood, new Rectangle(0, 0, 260, 480), new Vector2(0, 0)).Draw(spriteBatch); //wood
             new Sprite(new Vector2(545, 5), sprites, new Rectangle(73, 600, 50, 60), new Vector2(0, 0)).Draw(spriteBatch); //money
             new Sprite(new Vector2(700, 30), sprites, new Rectangle(133, 152, 50, 20), new Vector2(0, 0)).Draw(spriteBatch); //lives
-            spriteBatch.DrawString(Font1, Convert.ToString(bombcost), new Vector2(600, 350), Color.Gold);//cash
+            spriteBatch.Draw(Nuke, new Rectangle(550, 400 ,32,32), Color.White);
+            spriteBatch.DrawString(Font1, Convert.ToString(nukes), new Vector2(600, 400), Color.Black);//cash
+            spriteBatch.DrawString(Font1, Convert.ToString(bombcost), new Vector2(600, 350), Color.Black);//cash
             spriteBatch.DrawString(Font1, Convert.ToString(money), new Vector2(600, 30), Color.Gold);//cash
             spriteBatch.DrawString(Font1, Convert.ToString(gun1cost), new Vector2(600, 100), Color.Gold);//1cost
             spriteBatch.DrawString(Font1, Convert.ToString(gun2cost), new Vector2(600, 150), Color.Gold);//2cost
@@ -655,7 +709,8 @@ namespace TowerTrouble
             {
                 new Sprite(new Vector2(mouserect.X - 20, mouserect.Y - 20), bannana, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)).Draw(spriteBatch);
             }
-
+            if (titlescreen)
+            spriteBatch.Draw(titlescreenimg, new Rectangle(0, 0, 800, 480), Color.White);
             spriteBatch.End();
             EffectManager.Draw();
             base.Draw(gameTime);
