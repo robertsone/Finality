@@ -346,7 +346,7 @@ namespace TowerTrouble
                         }
                     }
                 }
-                if (delay >= 50)
+                if (delay >= 60)
                 {
                     enemies.Add(new enemies(new Sprite(new Vector2(0, 0), Enemy, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), 0, 0,health));
                     delay = rand.Next(150);
