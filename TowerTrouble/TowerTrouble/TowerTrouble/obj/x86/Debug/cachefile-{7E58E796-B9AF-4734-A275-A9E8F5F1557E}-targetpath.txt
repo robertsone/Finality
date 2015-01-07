@@ -83,10 +83,11 @@ Content\this game\bulley.xnb
 Content\this game\banana-clip-art-2.xnb
 Content\this game\dr-bob-jpg.xnb
 Content\this game\woop.xnb
+Content\this game\BOMB.xnb
+Content\this game\Unicorn_Castle terio yeet123 holdupyeetteykhami (6).xnb
+Content\this game\skull.xnb
 Content\this game\SpriteFont1.xnb
 Content\this game\sound_effects_explosion.xnb
 Content\this game\Sound_Effects_-_Death_Screams_1_ (1).xnb
 Content\this game\Cash_register_sound_effect.xnb
 Content\this game\Small_Fart_Sound_Effect_For_Free.xnb
-Content\this game\BOMB.xnb
-Content\this game\Unicorn_Castle terio yeet123 holdupyeetteykhami (6).xnb

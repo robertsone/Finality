@@ -24,6 +24,7 @@ namespace TowerTrouble
         public String der;
         public bool Remove;
         public int health;
+        public Random rand = new Random();
         public bool dead;
         public enemies(Sprite sprite,int tilex,int tiley,int health)
         {
@@ -37,6 +38,17 @@ namespace TowerTrouble
             this.Remove = false;
             this.health = health;
             this.dead = false;
+            int type = rand.Next(0, 3);
+            if (type == 0)
+            {
+                speed *= 2;
+                health /= 3;
+            }
+            if (type == 1)
+            {
+                health *= 10;
+                speed /= 4;
+            }
         }
         public void changeImage(String der, Texture2D enemies)
         {

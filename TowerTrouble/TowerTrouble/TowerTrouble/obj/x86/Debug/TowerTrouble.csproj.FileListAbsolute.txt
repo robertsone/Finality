@@ -97,3 +97,4 @@ C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble
 C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\Small_Fart_Sound_Effect_For_Free.xnb
 C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\BOMB.xnb
 C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\Unicorn_Castle terio yeet123 holdupyeetteykhami (6).xnb
+C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\skull.xnb

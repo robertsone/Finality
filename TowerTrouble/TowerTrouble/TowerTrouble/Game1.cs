@@ -38,6 +38,7 @@ namespace TowerTrouble
         Texture2D grass2;
         Texture2D range;
         Texture2D bannana;
+        int gamex = 1000;
         Texture2D brick;
         Texture2D lazor;
         Texture2D bob;
@@ -47,6 +48,7 @@ namespace TowerTrouble
         Vector2 isHovering;
         Texture2D Enemy, grass;
         Texture2D titlescreenimg;
+        Texture2D skull;
         bool Canclick=false;
         bool leftMouseClicked = false;
         Rectangle mouserect;
@@ -199,6 +201,7 @@ namespace TowerTrouble
             Explode = Content.Load<SoundEffect>(@"this game\sound_effects_explosion");
             Death = Content.Load<SoundEffect>(@"this game\Sound_Effects_-_Death_Screams_1_ (1)");
             ChaChing = Content.Load<SoundEffect>(@"this game\Cash_register_sound_effect");
+            skull = Content.Load<Texture2D>(@"this game\skull");
 
             money = 200;
             lives = 20;
@@ -501,6 +504,7 @@ namespace TowerTrouble
                         if (lives <= 0)
                         {
                             done = true;
+                            GameOver.dead = true;
                         }
                         enemies.Remove(enemies[i]);
                     }
@@ -612,12 +616,13 @@ namespace TowerTrouble
                         Death.Play();
                         EffectManager.Effect("Ship Cannon Fire").Trigger(enemies[j].sprite.Center); EffectManager.Effect("Ship Cannon Fire").Trigger(enemies[j].sprite.Center);
                         enemies.Remove(enemies[j]);
-                        money += (health / 100);
+                        money += (health / 100)+2;
                     }
                 }
 
-                EffectManager.Update(gameTime);
+                
             }
+            EffectManager.Update(gameTime);
             base.Update(gameTime);
         }
         protected override void Draw(GameTime gameTime)
@@ -711,6 +716,33 @@ namespace TowerTrouble
             }
             if (titlescreen)
             spriteBatch.Draw(titlescreenimg, new Rectangle(0, 0, 800, 480), Color.White);
+            if (GameOver.dead)
+            {
+                gamex -= 1;
+                spriteBatch.Draw(skull, new Rectangle(0, 0, 800, 480), Color.White);
+                int text=300;
+                spriteBatch.DrawString(Font1, "Game Over", new Vector2(text, gamex-50), Color.Gold);//coke
+                spriteBatch.DrawString(Font1, "Justin & Jack", new Vector2(text, gamex - 100), Color.Gold);//coke
+                spriteBatch.DrawString(Font1, "Images", new Vector2(text, gamex - 150), Color.Gold);//coke
+                spriteBatch.DrawString(Font1, "Justin & Jack", new Vector2(text, gamex - 200), Color.Gold);//coke
+                spriteBatch.DrawString(Font1, "UI:", new Vector2(text, gamex - 250), Color.Gold);//coke
+                spriteBatch.DrawString(Font1, "jesus", new Vector2(text, gamex - 300), Color.Gold);//coke
+                spriteBatch.DrawString(Font1, "Zues", new Vector2(text, gamex+50), Color.Gold);//coke
+                spriteBatch.DrawString(Font1, "Sound director:", new Vector2(text, gamex), Color.Gold);//coke
+                spriteBatch.DrawString(Font1, "We just lised them", new Vector2(text, gamex - 350), Color.Gold);//coke
+                spriteBatch.DrawString(Font1, "Programmers:", new Vector2(text, gamex - 400), Color.Gold);//coke
+                spriteBatch.DrawString(Font1, "Justin Short", new Vector2(text, gamex - 450), Color.Gold);//coke
+                spriteBatch.DrawString(Font1, "Jack Quinn", new Vector2(text, gamex - 500), Color.Gold);//coke
+                spriteBatch.DrawString(Font1, "Anthony Robertson", new Vector2(text, gamex - 550), Color.Gold);//coke
+                spriteBatch.DrawString(Font1, "Made by:", new Vector2(text, gamex - 600), Color.Gold);//coke
+                spriteBatch.DrawString(Font1, "Game Over", new Vector2(text, 650), Color.Gold);//coke
+                for (int i = 0; i < 200; i++)
+                {
+                    int x = rand.Next(1, 900);
+                    int y = rand.Next(1, 700);
+                    EffectManager.Effect("ShipSmokeTrail").Trigger(new Vector2(x, y));
+                }
+            }
             spriteBatch.End();
             EffectManager.Draw();
             base.Draw(gameTime);
