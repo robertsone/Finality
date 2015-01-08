@@ -26,6 +26,7 @@ namespace TowerTrouble
         public int health;
         public Random rand = new Random();
         public bool dead;
+        public int maxhealth;
         public enemies(Sprite sprite,int tilex,int tiley,int health)
         {
             this.tilex = tilex;
@@ -37,6 +38,7 @@ namespace TowerTrouble
             this.der = "up";
             this.Remove = false;
             this.health = health;
+            this.maxhealth = health;
             this.dead = false;
             int type = rand.Next(0, 3);
             if (type == 0)

@@ -37,6 +37,8 @@ namespace TowerTrouble
         Texture2D sprites;
         Texture2D grass2;
         Texture2D range;
+        Texture2D Bruss;
+        Texture2D Ike;
         Texture2D bannana;
         int gamex = 1000;
         Texture2D brick;
@@ -62,6 +64,8 @@ namespace TowerTrouble
         Sprite bana;
         Sprite bomb;
         Sprite bobsprite;
+        Sprite IkeSprite;
+        Sprite BrussSprite;
         string isplacing;
         int machineGunPrice = 10;
         int machineGun2Price = 50;
@@ -74,6 +78,8 @@ namespace TowerTrouble
         int nukes = 2;
         int gun2cost = 50;
         int banacost = 1000;
+        int brusscost = 500;
+        int icecost = 100;
         int wallcost = 3;
         int cokecost = 700;
         Boolean nuked = false;
@@ -178,6 +184,8 @@ namespace TowerTrouble
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            Ike = Content.Load<Texture2D>(@"this game\ice");
+            Bruss = Content.Load<Texture2D>(@"this game\Brussels");
             Nuke = Content.Load<Texture2D>(@"this game\BOMB");
             range = Content.Load<Texture2D>(@"this game\range");
             bullet = Content.Load<Texture2D>(@"this game\bulley");
@@ -219,6 +227,8 @@ namespace TowerTrouble
 
             EffectManager.Initialize(graphics, Content);
             EffectManager.LoadContent();
+            IkeSprite = new Sprite(new Vector2(700, 100), Ike, new Rectangle(0, 0, 32, 32), new Vector2(0, 0));
+            BrussSprite = new Sprite(new Vector2(700, 150), Bruss, new Rectangle(0, 0, 32, 32), new Vector2(0, 0));
             bomb = new Sprite(new Vector2(545, 350), woop, new Rectangle(0, 0, 32, 32), new Vector2(0, 0));
             bana = new Sprite(new Vector2(545, 250), bannana, new Rectangle(0, 0, 32, 32), new Vector2(0, 0));
             bobsprite = new Sprite(new Vector2(545, 300), bob, new Rectangle(0, 0, 32, 32), new Vector2(0, 0));
@@ -270,6 +280,16 @@ namespace TowerTrouble
                             EffectManager.Effect("PulseTracker").Trigger(grids[i, j].sprite.Center); EffectManager.Effect("PulseTracker").Trigger(grids[i, j].sprite.Center);
                             
                             grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), woop, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), Tower, false, true, 200, 1, 10);
+                        }
+                        if (Tower == "ice")
+                        {
+                            EffectManager.Effect("StarTrail").Trigger(grids[i, j].sprite.Center);
+                            grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), Ike, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), Tower, true, true, 200, 5, 1);
+                        }
+                        if (Tower == "bruss")
+                        {
+                            EffectManager.Effect("StarTrail").Trigger(grids[i, j].sprite.Center);
+                            grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), Bruss, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), Tower, true, true, 200, 5, 1);
                         }
                         if (Tower == "coke")
                         {
@@ -383,6 +403,24 @@ namespace TowerTrouble
 
                 if (isplacing != "none" && leftMouseClicked)
                 {
+                    if (isplacing == "ice")
+                    {
+
+                        grid = placedTower(grid, mouserect, "ice"); ChaChing.Play();
+                        isplacing = "none";
+                        money -= icecost;
+                        icecost += icecost / 10;
+
+                    }
+                    if (isplacing == "bruss")
+                    {
+
+                        grid = placedTower(grid, mouserect, "bruss"); ChaChing.Play();
+                        isplacing = "none";
+                        money -= brusscost;
+                        brusscost += brusscost / 10;
+
+                    }
                     if (isplacing == "bomb")
                     {
 
@@ -447,6 +485,14 @@ namespace TowerTrouble
 
                 if (leftMouseClicked)
                 {
+                    if (IkeSprite.IsBoxColliding(mouserect) && money >= icecost)
+                    {
+                        isplacing = "ice";
+                    }
+                    if (BrussSprite.IsBoxColliding(mouserect) && money >= brusscost)
+                    {
+                        isplacing = "bruss";
+                    }
                     if (bomb.IsBoxColliding(mouserect) && money >= bombcost)
                     {
                         isplacing = "bomb";
@@ -536,7 +582,13 @@ namespace TowerTrouble
                                         Vector2 vel = enemies[close].sprite.Center - grid[i, j].sprite.Center;
                                         vel.Normalize();
                                         vel *= new Vector2(500, 500);
-                                        bullets.Add(new bullet(new Sprite(grid[i, j].sprite.Center, bullet, new Rectangle(0, 0, 8, 8), vel), grid[i, j].damage));
+                                        if (grid[i, j].tower == "ice")
+                                            bullets.Add(new bullet(new Sprite(grid[i, j].sprite.Center, bullet, new Rectangle(0, 0, 8, 8), vel), grid[i, j].damage, true, false));
+                                        else if (grid[i, j].tower == "bruss")
+                                            bullets.Add(new bullet(new Sprite(grid[i, j].sprite.Center, bullet, new Rectangle(0, 0, 8, 8), vel), grid[i, j].damage, false, true));
+                                        else
+                                            bullets.Add(new bullet(new Sprite(grid[i, j].sprite.Center, bullet, new Rectangle(0, 0, 8, 8), vel), grid[i, j].damage, false, false));
+                                        
                                         grid[i, j].shottimer = grid[i, j].reset;
                                     }
                                 }
@@ -655,6 +707,8 @@ namespace TowerTrouble
             new Sprite(new Vector2(545, 5), sprites, new Rectangle(73, 600, 50, 60), new Vector2(0, 0)).Draw(spriteBatch); //money
             new Sprite(new Vector2(700, 30), sprites, new Rectangle(133, 152, 50, 20), new Vector2(0, 0)).Draw(spriteBatch); //lives
             spriteBatch.Draw(Nuke, new Rectangle(550, 400 ,32,32), Color.White);
+            spriteBatch.DrawString(Font1, Convert.ToString(brusscost), new Vector2(750, 150), Color.Gold);//cash
+            spriteBatch.DrawString(Font1, Convert.ToString(icecost), new Vector2(750, 100), Color.Gold);//cash
             spriteBatch.DrawString(Font1, Convert.ToString(nukes), new Vector2(600, 400), Color.Black);//cash
             spriteBatch.DrawString(Font1, Convert.ToString(bombcost), new Vector2(600, 350), Color.Black);//cash
             spriteBatch.DrawString(Font1, Convert.ToString(money), new Vector2(600, 30), Color.Gold);//cash
@@ -668,12 +722,20 @@ namespace TowerTrouble
             wall.Draw(spriteBatch);//wall
             bana.Draw(spriteBatch);
             bomb.Draw(spriteBatch);
+            IkeSprite.Draw(spriteBatch);
+            BrussSprite.Draw(spriteBatch);
             bobsprite.Draw(spriteBatch);
             spriteBatch.DrawString(Font1, Convert.ToString(lives), new Vector2(755, 30), Color.Gold);//lives
             spriteBatch.DrawString(Font1, "Health of each enemy:  "+Convert.ToString(health), new Vector2(550, 70), Color.Gold);//health
 
             for (int i = 0; i < enemies.Count; i++)
             {
+                int x=enemies[i].sprite.BoundingBoxRect.X;
+                int y=enemies[i].sprite.BoundingBoxRect.Y-10;
+                double width = ((double)enemies[i].maxhealth / 32.0);
+                double width2 = ((double)enemies[i].health / width);
+                spriteBatch.Draw(red, new Rectangle(x, y,32, 2), Color.Green);
+                spriteBatch.Draw(red, new Rectangle(x,y,Convert.ToInt32(width2),2), Color.White);
                 enemies[i].sprite.Draw(spriteBatch);
             }
             grid[8, 7].sprite.Draw(spriteBatch);
@@ -689,6 +751,14 @@ namespace TowerTrouble
             for (int i = 0; i < bullets.Count; i++)
             {
                 bullets[i].bulletsprite.Draw(spriteBatch);
+            }
+            if (isplacing == "ice")
+            {
+                new Sprite(new Vector2(mouserect.X - 10, mouserect.Y - 10), Ike, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)).Draw(spriteBatch);
+            }
+            if (isplacing == "bruss")
+            {
+                new Sprite(new Vector2(mouserect.X - 10, mouserect.Y - 10), Bruss, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)).Draw(spriteBatch);
             }
             if (isplacing == "coke")
             {

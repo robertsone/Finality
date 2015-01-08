@@ -16,10 +16,14 @@ namespace TowerTrouble
         public Sprite bulletsprite;
         public int damage;
         public bool dead;
-        public bullet(Sprite bullet,int damage){
+        public bool freeze;
+        public bool poison;
+        public bullet(Sprite bullet,int damage,bool fre,bool poi){
             this.bulletsprite = bullet;
             this.damage = damage;
             this.dead = false;
+            this.freeze = fre;
+            this.poison = poi;
         }
     }
 }
