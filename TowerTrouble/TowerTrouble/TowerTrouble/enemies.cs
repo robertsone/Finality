@@ -27,6 +27,9 @@ namespace TowerTrouble
         public Random rand = new Random();
         public bool dead;
         public int maxhealth;
+        public bool freeze;
+        public int poison;
+        public int freezetime;
         public enemies(Sprite sprite,int tilex,int tiley,int health)
         {
             this.tilex = tilex;
@@ -40,6 +43,9 @@ namespace TowerTrouble
             this.health = health;
             this.maxhealth = health;
             this.dead = false;
+            this.freeze = false;
+            this.poison = 0;
+            this.freezetime = 0;
             int type = rand.Next(0, 3);
             if (type == 0)
             {
@@ -73,7 +79,12 @@ namespace TowerTrouble
         }
         public void update(Tiles[,] grids,Texture2D enemy)
         {
-            
+            health -= poison;
+            poison /= 5;
+            if (poison <= 0)
+            {
+                poison = 0;
+            }
             framecounter++;
             bool willUpdate=false;
             if (framecounter >= 5)

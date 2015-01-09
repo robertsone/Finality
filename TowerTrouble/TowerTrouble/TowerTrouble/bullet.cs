@@ -24,6 +24,14 @@ namespace TowerTrouble
             this.dead = false;
             this.freeze = fre;
             this.poison = poi;
+            if (fre)
+            {
+                bulletsprite.TintColor = Color.Blue;
+            }
+            if (poi)
+            {
+                bulletsprite.TintColor = Color.Green;
+            }
         }
     }
 }

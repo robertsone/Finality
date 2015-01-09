@@ -79,7 +79,7 @@ namespace TowerTrouble
         int gun2cost = 50;
         int banacost = 1000;
         int brusscost = 500;
-        int icecost = 100;
+        int icecost = 500;
         int wallcost = 3;
         int cokecost = 700;
         Boolean nuked = false;
@@ -284,12 +284,12 @@ namespace TowerTrouble
                         if (Tower == "ice")
                         {
                             EffectManager.Effect("StarTrail").Trigger(grids[i, j].sprite.Center);
-                            grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), Ike, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), Tower, true, true, 200, 5, 1);
+                            grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), Ike, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), Tower, true, true, 200, 1, 0);
                         }
                         if (Tower == "bruss")
                         {
                             EffectManager.Effect("StarTrail").Trigger(grids[i, j].sprite.Center);
-                            grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), Bruss, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), Tower, true, true, 200, 5, 1);
+                            grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), Bruss, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), Tower, true, true, 200, 1, 0);
                         }
                         if (Tower == "coke")
                         {
@@ -409,7 +409,7 @@ namespace TowerTrouble
                         grid = placedTower(grid, mouserect, "ice"); ChaChing.Play();
                         isplacing = "none";
                         money -= icecost;
-                        icecost += icecost / 10;
+                        icecost += icecost / 5;
 
                     }
                     if (isplacing == "bruss")
@@ -418,7 +418,7 @@ namespace TowerTrouble
                         grid = placedTower(grid, mouserect, "bruss"); ChaChing.Play();
                         isplacing = "none";
                         money -= brusscost;
-                        brusscost += brusscost / 10;
+                        brusscost += brusscost / 5;
 
                     }
                     if (isplacing == "bomb")
@@ -636,11 +636,6 @@ namespace TowerTrouble
                         }
                         if (bullets[i].bulletsprite.IsBoxColliding(enemies[j].sprite.BoundingBoxRect))
                         {
-                            if (bullets[i].damage != 500)
-                            {
-                                bullets[i].dead = true;
-                            }
-                            enemies[j].health -= bullets[i].damage;
                             if (enemies[j].health <= 0)
                             {
 
@@ -650,6 +645,23 @@ namespace TowerTrouble
                                     EffectManager.Effect("BasicExplosion").Trigger(bullets[i].bulletsprite.Center);
                                 }
                             }
+                            if (enemies[i].dead == false)
+                            {
+                                if (bullets[i].damage != 500)
+                                {
+                                    bullets[i].dead = true;
+                                }
+                                enemies[j].health -= bullets[i].damage;
+                                if (bullets[i].freeze)
+                                {
+                                    enemies[i].speed *= 98 / 100;
+                                }
+                                if (bullets[i].poison)
+                                {
+                                    enemies[i].health *= 95 / 100;
+                                }
+                            }
+                            
                             
                         }
                     }
