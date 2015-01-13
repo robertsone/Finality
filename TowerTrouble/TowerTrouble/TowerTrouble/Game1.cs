@@ -380,7 +380,29 @@ namespace TowerTrouble
                 }
                 if (delay >= 60)
                 {
-                    enemies.Add(new enemies(new Sprite(new Vector2(0, 0), Enemy, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), 0, 0,health));
+                    int side = rand.Next(4);
+                    int x=0; int y=0;
+                    if (side == 0)
+                    {
+                        y = 0;
+                        x = rand.Next(tileWidth);
+                    }
+                    if (side == 1)
+                    {
+                        y = rand.Next(tileHeight);
+                        x = tileWidth;
+                    }
+                    if (side == 2)
+                    {
+                        y = tileHeight;
+                        x = rand.Next(tileWidth);
+                    }
+                    if (side == 3)
+                    {
+                        y = rand.Next(tileHeight);
+                        x = 0;
+                    }
+                    enemies.Add(new enemies(new Sprite(new Vector2(x*tileSize, y*tileSize), Enemy, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), x, y, health));
                     delay = rand.Next(150);
                 }
                 if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
@@ -742,6 +764,10 @@ namespace TowerTrouble
             {
                 for (int j = 0; j < tileHeight; j++)
                 {
+                    if (i == 0 || j == 0 || i == tileWidth || j == tileHeight)
+                    {
+                        spriteBatch.Draw(red, new Rectangle(i * 32, j * 32, 32, 32), Color.White);
+                    }
                     if (isplacing != "none" && grid[i,j].tower=="none")
                     {
                         spriteBatch.Draw(grass2, new Rectangle(i * 32, j * 32, 32, 32), Color.White);
