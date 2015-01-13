@@ -78,8 +78,8 @@ namespace TowerTrouble
         int nukes = 2;
         int gun2cost = 50;
         int banacost = 1000;
-        int brusscost = 500;
-        int icecost = 500;
+        int brusscost = 400;
+        int icecost = 400;
         int wallcost = 3;
         int cokecost = 700;
         Boolean nuked = false;
@@ -211,7 +211,7 @@ namespace TowerTrouble
             ChaChing = Content.Load<SoundEffect>(@"this game\Cash_register_sound_effect");
             skull = Content.Load<Texture2D>(@"this game\skull");
 
-            money = 200;
+            money = 29584300;
             lives = 20;
             isplacing="none";
             numberthing = 18;
@@ -260,6 +260,18 @@ namespace TowerTrouble
             }
             return num;
         }
+        public List<int> findall (Tiles tower, List<enemies> enemies)
+        {
+            List<int> nums=new List<int>();
+            for (int i = 0; i < enemies.Count(); i++)
+            {
+                if (enemies[i].sprite.IsCircleColliding(tower.sprite.Center, tower.range / 2))
+                {
+                    nums.Add(i);
+                }
+            }
+            return nums;
+        }
         public Tiles[,] placedTower(Tiles[,] grids, Rectangle mouserect,string Tower)
         {
             Tiles[,] yellow = new Tiles[tileWidth,tileHeight];
@@ -284,7 +296,7 @@ namespace TowerTrouble
                         if (Tower == "ice")
                         {
                             EffectManager.Effect("StarTrail").Trigger(grids[i, j].sprite.Center);
-                            grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), Ike, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), Tower, true, true, 200, 1, 0);
+                            grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), Ike, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), Tower, true, true, 200, 60, 0);
                         }
                         if (Tower == "bruss")
                         {
@@ -409,7 +421,7 @@ namespace TowerTrouble
                         grid = placedTower(grid, mouserect, "ice"); ChaChing.Play();
                         isplacing = "none";
                         money -= icecost;
-                        icecost += icecost / 5;
+                        icecost += icecost / 2;
 
                     }
                     if (isplacing == "bruss")
@@ -566,7 +578,7 @@ namespace TowerTrouble
 
                     for (int j = 0; j < tileHeight; j++)
                     {
-                        if (grid[i, j].tower != "none" && grid[i, j].tower != "wall" && grid[i, j].tower != "orb" && grid[i, j].tower != "bomb")
+                        if (grid[i, j].tower != "none" && grid[i, j].tower != "wall" && grid[i, j].tower != "orb" && grid[i, j].tower != "bomb" && grid[i, j].tower != "ice")
                         {
                             if (grid[i, j].shottimer <= 0)
                             {
@@ -599,6 +611,43 @@ namespace TowerTrouble
                             }
 
                         }
+                        if (grid[i, j].tower == "ice")
+                        {
+                            if (grid[i, j].shottimer <= 0)
+                            {
+                                List<int> close = findall(grid[i, j], enemies);
+                                if (close.Count!=0)
+                                {
+                                    for (int t = 0; t < enemies.Count(); t++)
+                                    {
+                                        for (int q = 0; q < close.Count(); q++)
+                                        {
+                                            if (t == q)
+                                            {
+                                                enemies[t].speed /=2;
+                                                EffectManager.Effect("ShieldsUp").Trigger(grid[i, j].sprite.Center);
+                                                EffectManager.Effect("ShieldsUp").Trigger(grid[i, j].sprite.Center);
+                                                EffectManager.Effect("ShieldsUp").Trigger(grid[i, j].sprite.Center);
+                                                EffectManager.Effect("ShieldsUp").Trigger(grid[i, j].sprite.Center);
+                                                EffectManager.Effect("ShieldsUp").Trigger(grid[i, j].sprite.Center);
+                                                EffectManager.Effect("ShieldsUp").Trigger(grid[i, j].sprite.Center);
+                                                EffectManager.Effect("ShieldsUp").Trigger(grid[i, j].sprite.Center);
+                                                EffectManager.Effect("ShieldsUp").Trigger(grid[i, j].sprite.Center);
+                                                EffectManager.Effect("ShieldsUp").Trigger(grid[i, j].sprite.Center);
+                                                EffectManager.Effect("ShieldsUp").Trigger(grid[i, j].sprite.Center);
+                                                EffectManager.Effect("ShieldsUp").Trigger(grid[i, j].sprite.Center);
+
+                                                grid[i, j].shottimer = grid[i, j].reset;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            if (grid[i, j].shottimer > 0)
+                            {
+                                grid[i, j].shottimer--;
+                            }
+                        }
                         if (grid[i, j].tower=="bomb"){
                             for (int t = 0; t < enemies.Count(); t++)
                             {
@@ -608,7 +657,7 @@ namespace TowerTrouble
                                     {
                                         if (enemies[i].sprite.IsCircleColliding(grid[i, j].sprite.Center, 100f))
                                         {
-                                            enemies.Remove(enemies[t]);
+                                            enemies.Remove(enemies[w]);
                                         }
                                     }
 
@@ -645,20 +694,16 @@ namespace TowerTrouble
                                     EffectManager.Effect("BasicExplosion").Trigger(bullets[i].bulletsprite.Center);
                                 }
                             }
-                            if (enemies[i].dead == false)
+                            if (enemies[j].dead == false)
                             {
                                 if (bullets[i].damage != 500)
                                 {
                                     bullets[i].dead = true;
                                 }
                                 enemies[j].health -= bullets[i].damage;
-                                if (bullets[i].freeze)
-                                {
-                                    enemies[i].speed *= 98 / 100;
-                                }
                                 if (bullets[i].poison)
                                 {
-                                    enemies[i].health *= 95 / 100;
+                                    enemies[j].health -= enemies[j].health/10;
                                 }
                             }
                             
