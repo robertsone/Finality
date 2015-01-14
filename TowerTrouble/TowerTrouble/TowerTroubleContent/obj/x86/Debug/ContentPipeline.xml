@@ -8,7 +8,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BasicExplosion.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9684-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7368-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>EffectLibrary\BasicExplosionWithHalo.xml</Source>
@@ -17,7 +21,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithHalo.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9694-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7378-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>EffectLibrary\BasicExplosionWithTrails2.xml</Source>
@@ -26,7 +34,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithTrails2.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9744-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7388-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>EffectLibrary\BasicFireball.xml</Source>
@@ -35,7 +47,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BasicFireball.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9744-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7388-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>EffectLibrary\BasicSmokePlume.xml</Source>
@@ -44,7 +60,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BasicSmokePlume.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9754-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7388-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>EffectLibrary\BeamMeUp.xml</Source>
@@ -53,7 +73,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\BeamMeUp.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9754-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7398-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>EffectLibrary\CampFire.xml</Source>
@@ -62,7 +86,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\CampFire.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9754-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7398-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>EffectLibrary\Enemy Cannon Fire.xml</Source>
@@ -71,7 +99,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\Enemy Cannon Fire.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9764-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7398-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>EffectLibrary\FlowerBloom.xml</Source>
@@ -80,7 +112,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\FlowerBloom.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9764-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7408-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>EffectLibrary\MagicTrail.xml</Source>
@@ -89,7 +125,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\MagicTrail.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9764-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7408-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>EffectLibrary\MeteroidCollision.xml</Source>
@@ -98,7 +138,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\MeteroidCollision.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9774-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7408-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>EffectLibrary\MeteroidExplode.xml</Source>
@@ -107,7 +151,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\MeteroidExplode.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9774-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7418-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>EffectLibrary\Paparazzi.xml</Source>
@@ -116,7 +164,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\Paparazzi.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9774-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7418-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>EffectLibrary\PulseTracker.xml</Source>
@@ -125,7 +177,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\PulseTracker.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9784-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7418-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>EffectLibrary\ShieldBounce.xml</Source>
@@ -134,7 +190,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\ShieldBounce.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9784-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7428-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>EffectLibrary\ShieldsUp.xml</Source>
@@ -143,7 +203,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\ShieldsUp.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9784-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7428-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>EffectLibrary\Ship Cannon Fire.xml</Source>
@@ -152,7 +216,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\Ship Cannon Fire.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9794-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7438-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>EffectLibrary\ShipSmokeTrail.xml</Source>
@@ -161,7 +229,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\ShipSmokeTrail.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9794-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7438-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>EffectLibrary\SimpleRain.xml</Source>
@@ -170,7 +242,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\SimpleRain.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9854-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7438-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>EffectLibrary\StarFireImpact.xml</Source>
@@ -179,7 +255,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\StarFireImpact.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9854-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7448-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>EffectLibrary\StarTrail.xml</Source>
@@ -188,7 +268,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\StarTrail.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9864-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7448-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>EffectLibrary\WaterJet.xml</Source>
@@ -197,7 +281,11 @@
       <Processor>PassThroughProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\EffectLibrary\WaterJet.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9864-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7448-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\grid.png</Source>
@@ -206,7 +294,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\grid.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0674-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7798-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\background.jpg</Source>
@@ -215,7 +307,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\background.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0664-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7788-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Bar.png</Source>
@@ -224,7 +320,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Bar.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9864-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7458-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Beam.png</Source>
@@ -233,7 +333,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Beam.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9874-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7458-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\BeamBlurred.png</Source>
@@ -242,7 +346,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\BeamBlurred.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9874-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7468-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\butt.png</Source>
@@ -251,7 +359,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\butt.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0664-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7798-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\check.png</Source>
@@ -260,7 +372,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\check.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0664-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7798-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Cloud001.png</Source>
@@ -269,7 +385,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Cloud001.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9884-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7478-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Cloud002.png</Source>
@@ -278,7 +398,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Cloud002.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9884-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7488-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Cloud003.png</Source>
@@ -287,7 +411,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Cloud003.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9894-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7498-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Cloud004.png</Source>
@@ -296,7 +424,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Cloud004.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9894-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7508-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Crosshair2.png</Source>
@@ -305,7 +437,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Crosshair2.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9904-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7508-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Custom.png.png</Source>
@@ -314,7 +450,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Custom.png.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9934-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7548-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Flame.png</Source>
@@ -323,7 +463,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Flame.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9944-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7548-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\FlowerBurst.png</Source>
@@ -332,7 +476,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\FlowerBurst.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9944-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7548-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\hp.png</Source>
@@ -341,7 +489,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\hp.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0674-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7808-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Laser.png</Source>
@@ -350,7 +502,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Laser.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9944-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7558-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\LensFlare.png</Source>
@@ -359,7 +515,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\LensFlare.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9954-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7558-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\light.png</Source>
@@ -368,7 +528,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\light.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0684-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7818-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\MultiDot.png</Source>
@@ -377,7 +541,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\MultiDot.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9954-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7558-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Particle001.png</Source>
@@ -386,7 +554,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle001.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9954-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7568-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Particle002.png</Source>
@@ -395,7 +567,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle002.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9964-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7568-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Particle003.png</Source>
@@ -404,7 +580,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle003.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9964-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7578-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Particle004.png</Source>
@@ -413,7 +593,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle004.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9974-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7578-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Particle005.png</Source>
@@ -422,7 +606,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle005.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9974-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7578-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Particle006.png</Source>
@@ -431,7 +619,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle006.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9974-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7588-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Particle007.png</Source>
@@ -440,7 +632,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Particle007.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9984-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7588-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Pause.png</Source>
@@ -449,7 +645,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Pause.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:35.9984-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7598-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Planets.png</Source>
@@ -458,7 +658,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Planets.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0234-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7608-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Ring001.png</Source>
@@ -467,7 +671,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Ring001.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0244-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7608-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Ring002.png</Source>
@@ -476,7 +684,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Ring002.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0394-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7618-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\SoftClumpy.png</Source>
@@ -485,7 +697,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\SoftClumpy.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0404-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7618-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\SoftSmokey.png</Source>
@@ -494,7 +710,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\SoftSmokey.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0414-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7628-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Spikey001.png</Source>
@@ -503,7 +723,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Spikey001.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0424-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7628-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Spikey002.png</Source>
@@ -512,7 +736,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Spikey002.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0424-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7638-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Splash.png</Source>
@@ -521,7 +749,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Splash.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0434-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7648-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Spray001.png</Source>
@@ -530,7 +762,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Spray001.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0504-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7658-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\SpriteSheet.png</Source>
@@ -539,7 +775,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\SpriteSheet.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0534-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7668-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Star.png</Source>
@@ -548,7 +788,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Star.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0544-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7678-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\TitleScreen.png</Source>
@@ -557,7 +801,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\TitleScreen.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0624-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7758-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\vial.png</Source>
@@ -566,7 +814,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\vial.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0684-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7828-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Water001.png</Source>
@@ -575,7 +827,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Water001.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0634-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7758-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Water002.png</Source>
@@ -584,7 +840,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Water002.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0634-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7768-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Weeds.png</Source>
@@ -593,7 +853,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Weeds.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0644-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7778-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>Textures\Win.png</Source>
@@ -602,7 +866,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\Textures\Win.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0644-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7778-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\paths_and_money.png</Source>
@@ -611,7 +879,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\paths_and_money.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0964-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.8128-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\tower.png</Source>
@@ -620,7 +892,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\tower.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.1144-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.8318-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\weapons.png</Source>
@@ -629,7 +905,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\weapons.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.1154-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.8338-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\weapons2.png</Source>
@@ -638,7 +918,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\weapons2.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.1174-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.8348-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\orbs.png</Source>
@@ -647,7 +931,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\orbs.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0944-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.8108-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\grass.png</Source>
@@ -656,7 +944,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\grass.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0924-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.8088-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\spritesheet.png</Source>
@@ -665,7 +957,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\spritesheet.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.1134-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.8308-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\wood.jpg</Source>
@@ -674,7 +970,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\wood.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.1174-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.8358-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\Gemcraft.jpg</Source>
@@ -683,7 +983,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\Gemcraft.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0794-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7948-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\grass2.png</Source>
@@ -692,7 +996,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\grass2.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0934-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.8088-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\sprite_bricks_tutorial_1.png</Source>
@@ -701,7 +1009,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\sprite_bricks_tutorial_1.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.1124-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.8298-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\red.png</Source>
@@ -710,7 +1022,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\red.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0974-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.8138-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\range.png</Source>
@@ -719,7 +1035,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\range.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0974-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.8128-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\lazor.png</Source>
@@ -728,7 +1048,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\lazor.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0944-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.8098-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\bulley.png</Source>
@@ -737,7 +1061,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\bulley.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0924-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.8078-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\banana-clip-art-2.png</Source>
@@ -746,7 +1074,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\banana-clip-art-2.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0924-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.8078-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\dr-bob-jpg.png</Source>
@@ -755,7 +1087,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\dr-bob-jpg.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0924-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.8088-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\woop.png</Source>
@@ -764,7 +1100,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\woop.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.1184-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.8358-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\BOMB.png</Source>
@@ -773,7 +1113,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\BOMB.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0754-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7898-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\Unicorn_Castle terio yeet123 holdupyeetteykhami (6).png</Source>
@@ -782,7 +1126,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\Unicorn_Castle terio yeet123 holdupyeetteykhami (6).xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0914-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.8078-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\skull.jpg</Source>
@@ -791,7 +1139,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\skull.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.1024-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.8198-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\Brussels.png</Source>
@@ -800,7 +1152,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\Brussels.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0754-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7908-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\ice.png</Source>
@@ -809,7 +1165,11 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\ice.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0934-05:00</Time>
+=======
+      <Time>2015-01-09T10:57:48.4188-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\SpriteFont1.spritefont</Source>
@@ -818,7 +1178,11 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\SpriteFont1.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0834-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7988-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\sound_effects_explosion.wav</Source>
@@ -827,7 +1191,11 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\sound_effects_explosion.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.1124-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.8288-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\Sound_Effects_-_Death_Screams_1_ (1).wav</Source>
@@ -836,7 +1204,11 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\Sound_Effects_-_Death_Screams_1_ (1).xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0834-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7988-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\Cash_register_sound_effect.wav</Source>
@@ -845,7 +1217,11 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\Cash_register_sound_effect.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0794-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7938-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <Item>
       <Source>this game\Small_Fart_Sound_Effect_For_Free.wav</Source>
@@ -854,7 +1230,11 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\TowerTrouble\bin\x86\Debug\Content\this game\Small_Fart_Sound_Effect_For_Free.xnb</Output>
+<<<<<<< HEAD
       <Time>2015-01-14T10:17:36.0814-05:00</Time>
+=======
+      <Time>2015-01-09T10:19:24.7958-05:00</Time>
+>>>>>>> parent of 6122b6a... before random spawn
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -870,11 +1250,19 @@
     <Assemblies>
       <Assembly>
         <Key>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\ProjectMercury.dll</Key>
+<<<<<<< HEAD
         <Value>2015-01-14T10:17:35.5244-05:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\ProjectMercury.ContentPipeline.dll</Key>
         <Value>2015-01-14T10:17:35.5224-05:00</Value>
+=======
+        <Value>2015-01-09T10:19:24.3088-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Users\eahscs\Documents\GitHub\Finality\TowerTrouble\TowerTrouble\ProjectMercury.ContentPipeline.dll</Key>
+        <Value>2015-01-09T10:19:24.3078-05:00</Value>
+>>>>>>> parent of 6122b6a... before random spawn
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
