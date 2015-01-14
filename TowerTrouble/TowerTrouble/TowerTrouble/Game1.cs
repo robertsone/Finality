@@ -378,9 +378,9 @@ namespace TowerTrouble
                         }
                     }
                 }
-                if (delay >= 60)
+                if (delay >= 1)
                 {
-                    int side = rand.Next(4);
+                    int side = 2;
                     int x=0; int y=0;
                     if (side == 0)
                     {
