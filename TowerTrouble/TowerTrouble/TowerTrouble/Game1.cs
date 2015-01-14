@@ -29,6 +29,7 @@ namespace TowerTrouble
         SoundEffect Death;
         SoundEffect Fart;
         Texture2D Nuke;
+        int rotating = 0;
         bool titlescreen = true;
         Texture2D Tiles;
         Texture2D Gemcraft;
@@ -62,6 +63,7 @@ namespace TowerTrouble
         Sprite wall;
         Sprite NukeSprite;
         Sprite bana;
+        Sprite rotate;
         Sprite bomb;
         Sprite bobsprite;
         Sprite IkeSprite;
@@ -75,7 +77,7 @@ namespace TowerTrouble
         KeyboardState keyState;
         List<bullet> bullets=new List<bullet>();
         int gun1cost = 10;
-        int nukes = 2;
+        int nukes = 1;
         int gun2cost = 50;
         int banacost = 1000;
         int brusscost = 500;
@@ -85,6 +87,7 @@ namespace TowerTrouble
         Boolean nuked = false;
         int numberthing;
         int bombcost = 7;
+        int lovin;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -108,6 +111,7 @@ namespace TowerTrouble
                 }
             }
             int w = 0;
+            
             while (w<=240)
             {
                 w++;
@@ -233,6 +237,7 @@ namespace TowerTrouble
             bana = new Sprite(new Vector2(545, 250), bannana, new Rectangle(0, 0, 32, 32), new Vector2(0, 0));
             bobsprite = new Sprite(new Vector2(545, 300), bob, new Rectangle(0, 0, 32, 32), new Vector2(0, 0));
             wall = new Sprite(new Vector2(545, 200), brick, new Rectangle(0, 0, 32, 32), new Vector2(0, 0));
+            rotate = new Sprite(new Vector2(705, 400), red, new Rectangle(0, 0, 32, 32), new Vector2(0, 0));
             machineGun = new Sprite(new Vector2(545, 100), sprites, new Rectangle(90, 287, 32, 32), new Vector2(0, 0));
             machineGun2 = new Sprite(new Vector2(545, 150), sprites, new Rectangle(156, 287, 32, 32), new Vector2(0, 0));
             grid = CalculatePath(grid);
@@ -260,6 +265,8 @@ namespace TowerTrouble
             }
             return num;
         }
+
+
         public Tiles[,] placedTower(Tiles[,] grids, Rectangle mouserect,string Tower)
         {
             Tiles[,] yellow = new Tiles[tileWidth,tileHeight];
@@ -366,31 +373,10 @@ namespace TowerTrouble
                         }
                     }
                 }
-                if (delay >= 1)
+                if (delay >= 60)
                 {
-                    int side = 2;
-                    int x=0; int y=0;
-                    if (side == 0)
-                    {
-                        y = 0;
-                        x = rand.Next(tileWidth);
-                    }
-                    if (side == 1)
-                    {
-                        y = rand.Next(tileHeight);
-                        x = tileWidth;
-                    }
-                    if (side == 2)
-                    {
-                        y = tileHeight;
-                        x = rand.Next(tileWidth);
-                    }
-                    if (side == 3)
-                    {
-                        y = rand.Next(tileHeight);
-                        x = 0;
-                    }
-                    enemies.Add(new enemies(new Sprite(new Vector2(x*tileSize, y*tileSize), Enemy, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), x, y, health));
+          
+                    enemies.Add(new enemies(new Sprite(new Vector2(0,0), Enemy, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), 0, 0, health));
                     delay = rand.Next(150);
                 }
                 if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
@@ -504,9 +490,35 @@ namespace TowerTrouble
 
                     }
                 }
+                if (rotating >= 1)
+                {
+                    bool isdone = false;
+                    rotating++;
+                    for (int i = 0; i < tileWidth; i++)
+                    {
 
+                        for (int j = 0; j < tileHeight; j++)
+                        {
+                            grid[i, j].sprite.Rotation += 1;
+                            if (grid[i, j].sprite.Rotation == 360)
+                            {
+                                isdone = true;
+                            }
+                        }
+                        
+                    }
+                    if (isdone)
+                    {
+                        rotating = -10;
+                    }
+
+                }
                 if (leftMouseClicked)
                 {
+                    if (rotate.IsBoxColliding(mouserect))
+                    {
+                        rotating = 1;
+                    }
                     if (IkeSprite.IsBoxColliding(mouserect) && money >= icecost)
                     {
                         isplacing = "ice";
@@ -521,6 +533,7 @@ namespace TowerTrouble
                     }
                     if (machineGun.IsBoxColliding(mouserect) && money >= gun1cost)
                     {
+                        
                         isplacing = "MachineGun";
                     }
                     if (bobsprite.IsBoxColliding(mouserect) && money >= cokecost)
@@ -544,6 +557,12 @@ namespace TowerTrouble
                         nuked = true;
                     }
 
+                }
+                lovin++;
+                if (lovin >= 7200)
+                {
+                    nukes++;
+                    lovin = 0;
                 }
 
                 if (nuked)
@@ -645,6 +664,7 @@ namespace TowerTrouble
                 }
                 for (int i = 0; i < bullets.Count; i++)
                 {
+                    EffectManager.Effect("MagicTrail").Trigger(bullets[i].bulletsprite.Center);
                     if (bullets[i].bulletsprite.BoundingBoxRect.X >= 1000 || bullets[i].bulletsprite.BoundingBoxRect.X <= -100 || bullets[i].bulletsprite.BoundingBoxRect.Y >= 1000 || bullets[i].bulletsprite.BoundingBoxRect.Y <= -100)
                     {
                         bullets[i].dead = true;
@@ -667,7 +687,7 @@ namespace TowerTrouble
                                     EffectManager.Effect("BasicExplosion").Trigger(bullets[i].bulletsprite.Center);
                                 }
                             }
-                            if (enemies[i].dead == false)
+                            if (enemies[j].dead == false)
                             {
                                 if (bullets[i].damage != 500)
                                 {
@@ -676,11 +696,11 @@ namespace TowerTrouble
                                 enemies[j].health -= bullets[i].damage;
                                 if (bullets[i].freeze)
                                 {
-                                    enemies[i].speed *= 98 / 100;
+                                    enemies[j].speed *= 98 / 100;
                                 }
                                 if (bullets[i].poison)
                                 {
-                                    enemies[i].health *= 95 / 100;
+                                    enemies[j].health *= 95 / 100;
                                 }
                             }
                             
@@ -760,6 +780,7 @@ namespace TowerTrouble
             wall.Draw(spriteBatch);//wall
             bana.Draw(spriteBatch);
             bomb.Draw(spriteBatch);
+            rotate.Draw(spriteBatch);
             IkeSprite.Draw(spriteBatch);
             BrussSprite.Draw(spriteBatch);
             bobsprite.Draw(spriteBatch);
