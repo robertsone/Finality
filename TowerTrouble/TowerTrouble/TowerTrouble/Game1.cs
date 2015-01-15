@@ -24,6 +24,7 @@ namespace TowerTrouble
         int tileWidth=17;
         int tileHeight=15;
         int tileSize=32;
+        randomColor color=new randomColor();
         SoundEffect ChaChing;
         SoundEffect Explode;
         SoundEffect Death;
@@ -215,7 +216,7 @@ namespace TowerTrouble
             ChaChing = Content.Load<SoundEffect>(@"this game\Cash_register_sound_effect");
             skull = Content.Load<Texture2D>(@"this game\skull");
 
-            money = 200;
+            money = 2035340;
             lives = 20;
             isplacing="none";
             numberthing = 18;
@@ -265,6 +266,19 @@ namespace TowerTrouble
             }
             return num;
         }
+        public List<int> FindAll(Tiles tower, List<enemies> enemies)
+        {
+            List<int> num =new List<int>();
+            int distance = 1000;
+            for (int i = 0; i < enemies.Count(); i++)
+            {
+                if (enemies[i].sprite.IsCircleColliding(tower.sprite.Center, tower.range / 2))
+                {
+                    num.Add(i);
+                }
+            }
+            return num;
+        }
 
 
         public Tiles[,] placedTower(Tiles[,] grids, Rectangle mouserect,string Tower)
@@ -291,7 +305,7 @@ namespace TowerTrouble
                         if (Tower == "ice")
                         {
                             EffectManager.Effect("StarTrail").Trigger(grids[i, j].sprite.Center);
-                            grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), Ike, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), Tower, true, true, 200, 1, 0);
+                            grids[i, j] = new Tiles(new Sprite(new Vector2(i * 32, j * 32), Ike, new Rectangle(0, 0, 32, 32), new Vector2(0, 0)), Tower, true, true, 200, 20, 0);
                         }
                         if (Tower == "bruss")
                         {
@@ -492,17 +506,23 @@ namespace TowerTrouble
                 }
                 if (rotating >= 1)
                 {
+                   
                     bool isdone = false;
                     rotating++;
+                    color.getcolor();
                     for (int i = 0; i < tileWidth; i++)
                     {
 
                         for (int j = 0; j < tileHeight; j++)
                         {
-                            grid[i, j].sprite.Rotation += 1;
-                            if (grid[i, j].sprite.Rotation == 360)
+                            grid[i, j].sprite.Rotation += .05f;
+                            grid[i, j].sprite.TintColor = color.normal;
+
+                            if (grid[i, j].sprite.Rotation >=6)
                             {
+                                grid[i, j].sprite.Rotation = 0;
                                 isdone = true;
+                                
                             }
                         }
                         
@@ -624,7 +644,14 @@ namespace TowerTrouble
                                         vel.Normalize();
                                         vel *= new Vector2(500, 500);
                                         if (grid[i, j].tower == "ice")
-                                            bullets.Add(new bullet(new Sprite(grid[i, j].sprite.Center, bullet, new Rectangle(0, 0, 8, 8), vel), grid[i, j].damage, true, false));
+                                        {
+                                            List<int> nums=FindAll(grid[i,j], enemies);
+                                            for (int w = 0; w < nums.Count; w++)
+                                            {
+                                                EffectManager.Effect("ShieldsUp").Trigger(grid[i, j].sprite.Center);
+                                                enemies[w].speed /= (int)1.2f;
+                                            }
+                                        }
                                         else if (grid[i, j].tower == "bruss")
                                             bullets.Add(new bullet(new Sprite(grid[i, j].sprite.Center, bullet, new Rectangle(0, 0, 8, 8), vel), grid[i, j].damage, false, true));
                                         else
